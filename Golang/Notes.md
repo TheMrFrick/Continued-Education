@@ -98,4 +98,54 @@ func main() {
 ```
 Semicolons are optional in Golang. They are not idiomatic Go, but they also don't hurt to explicitely state the termination of a statement.
 
+Multiple line breaks:
 
+```Go
+lonStr := "Hello World!" +
+"How are you?"
+```
+
+> The Go toolchain includes the gofmt tool, which can be used to consistently apply proper formatting rules to your source code.
+> There is also the `govet` tool, which goes much further by analyzing your code for structural problems with code elements.
+
+### Types
+
+| Category | Identifier |
+| -------- | ---------- |
+| Numeric | byte, int, int8, int16, int32, int64, rune, uint, uint8, uint16, uint32, uint64, float32, float64, complex64, uintptr |
+| String | string |
+| Boolean | bool | 
+| Error | error |
+
+### Values
+
+| Category | Identifier |
+| -------- | ---------- |
+| Boolean constants | true,false |
+| Constant counter | iota |
+| Uninitialized value | nil |
+
+### Functions
+The following functions are available as part of Go's built-in pre-declared identifiers:
+
+| Category | Identifier |
+| -------- | ---------- |
+| Initialization | make(),new() |
+| Collections | append(),cap(),copy(),delete() |
+| Complex numbers | complex(),imag(),real() |
+| Error Handling | panic(),recover() |
+
+### Declaring a variable
+```Go
+var <name of variable> <type> = <value> //long hand
+<name of variable> := <value> //short-hand
+```
+
+**Restrictions for short variable declaration**
+- Firstly, it can only be used within a function block
+- The assignment operator :=, declares variable and assign values
+- := cannot be used to update a previously declared variable
+- Updates to variables must be done with an equal sign
+
+**Variable scope and visibility**
+General rule, a variable is only accessible from within the block where it is declared and visible to all nested sub-blocks.
