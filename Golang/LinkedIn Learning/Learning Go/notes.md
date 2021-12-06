@@ -77,3 +77,18 @@ var aFloat = 3.14159
 var rounded = math.Round(aFloat)
 fmt.Printf("Original: %v, Rounded: %v\n",aFloat, rounded)
 ```
+# How memory is allocated and managed
+## Memory is Managed by the Runtime
+- The Go runtime is statically linked into application
+- Memory is allocated and deallocated automatically
+- Use `make()` or `new()` to initialize maps, slices, and channels
+
+## Memory Allocation
+The `new()` function
+- Allocated but does not initialize memory
+- Results in zeroed storage but returns a memory address
+
+The `make()` function
+- Allocates and initializes memory
+- Allocates non-zeroed storage and returns a memory address
+
