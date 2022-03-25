@@ -1,0 +1,34 @@
+
+Lab10 Problem 2
+
+1. Team name (As cool as possible)
+	Coconut clacking Adventurers
+
+2. The names of team members
+	Kyle Frick
+	Gabby Borgonova
+
+3. The idea of the final project
+	Dungeons and Dragons Character Creator
+
+4. What topics of COMP1050 (CS2) will your team uses in the final project?
+	List
+	Class Definitions
+	JavaFX
+	Abstract Classes
+	Inheritance/Polymorphism
+	Generics
+
+5. What tools will you use to work on the final project?
+	ControlsFX
+	SceneBuilder
+	Controller
+
+6. What is your schedule of the project?
+	The rest of the time that we have left we need to finish the Backgrounds and then transfer all the information into HTML/CSS
+	The backgrounds will take roughly 6 hours to complete, another 10 hours for the HTML/CSS
+	and another 4 hours to go back and check the code.
+
+7. Job assignment
+	UI - Gabby
+	Background Coding - Kyle

@@ -1,0 +1,35 @@
+Here is how the code should be run:
+-----------------------------------
+1. ./WTF configure <host pc name> <port#>
+    /* The host PC name is the name of the pc. For instance we tested on kill.cs.rutgers.edu port 10000,
+        therefore configure was ./WTF configure kill.cs.rutgers.edu 10000 */
+2. ./WTF server <port#>
+    /* Step 1 and Step 2 are interchangable. Port # should be the same and the server should be run on <host PC> */
+3. ./WTF create <project name>
+    /* this will create the project name and send the .Manifest to the client */
+4. touch client/<project name>/<file>
+    /* to create the file to add to the project */
+5. ./WTF add <project name> <file>
+    /* this will add to the .Manifest file */
+6. cat client/<project name>/.Manifest
+    /* will output the .Manifest file */
+7. ./WTF remove <project name> <file>
+    /* this will make the file in the .Manifest have an ! instead of a number indicating it is being removed */
+8. cat client/<project name>/.Manifest
+    /* this will show the change that remove does */
+9. ./WTF update <project name>
+    /* this will update the project */
+10. cat client/<project name>/.Update
+    /* this will output the project update file */
+11. ./WTF currentversion <project name>
+    /* this will output the currentversion of the project */
+
+/* Steps 5 - 11 could be done in any order and with the assumption that the files have been made */
+
+12. ./WTF destroy <project name>
+    /* this will destroy the project on the server side */
+13. ls server/
+    /* this will show empty since the project is no longer there */
+
+
+

@@ -1,0 +1,15 @@
+Test E:
+====================
+Test E is meant to test much like how Test D does, but at a larger scale of 100 - 800 bytes per allocation.
+This is a much heavier load on the array and it is done 50 times to see if the space is efficient enough.
+This also tests how our code runs given the issue if there is a request to allocate more than what the array can handle.
+This happens in the case of the user asking for more information than the array of information can provide.
+
+Test F:
+====================
+Test F is much like Test A in which we allocate and then immediately free. 
+The difference is that the allocation size increased from 1 to 4000. 
+Since our code runs by changing the entire malloc area to 0 when free is called (granted that the pointer is correct),
+then the time that it takes to free the area and then re-malloc it increases rather than a quick and easy 1 byte on/off.
+This is to test to see if something can get malloced, freed and then remalloced again without getting an error.
+This would allow the user to malloc and use the information immediately without having to check if NULL. 

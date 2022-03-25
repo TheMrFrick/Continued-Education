@@ -1,0 +1,3 @@
+Vtt11 and kf364 planned and wrote their sections of the code separately and tested with their own test cases.
+Kf364 used the given test cases within the Assignment_2 .pdf file. 
+Vtt11 wrote out different strings inside of a testfile called temp and repetively tested each method. 
