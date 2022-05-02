@@ -87,10 +87,13 @@ body {
 /* Testimonials */
 
 #testimonials {
-    padding: 7% 15%;
     text-align: center;
     background-color: #cf8172;
     color: #fff;
+}
+
+.carousel-item {
+    padding: 7% 15%;
 }
 
 h2 {
@@ -117,4 +120,15 @@ h2 {
 .press-image {
     width: 15%;
     margin: 20px 20px 50px;
+}
+
+/* Prices */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
 }
