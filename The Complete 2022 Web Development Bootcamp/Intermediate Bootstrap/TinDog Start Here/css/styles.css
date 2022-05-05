@@ -135,6 +135,34 @@ h2 {
     padding: 3% 2%;
 }
 
+/* CTA */
+
+#cta {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ff4c68;
+}
+
+h3 {
+    color:white;
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* Footer */
+
+#footer{
+    padding: 3% 15%;
+    text-align: center;
+    background-color: #fff;
+}
+
+.footer-icon {
+    padding: 2% 1%;
+}
+
 @media (max-width: 991px ) {
     .title-image {
         position: static;
