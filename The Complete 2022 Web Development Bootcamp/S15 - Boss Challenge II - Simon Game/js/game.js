@@ -65,6 +65,7 @@ function gameOver() {
     audio.play();
     gameState = false;
     $('h1').text(`Game Over, Score ${level}`);
+    level = 0;
 }
 
 async function playGameSequence() {
