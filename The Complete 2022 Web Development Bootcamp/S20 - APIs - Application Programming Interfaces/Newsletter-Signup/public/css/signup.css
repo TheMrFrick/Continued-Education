@@ -88,3 +88,8 @@ body {
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
 }
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
