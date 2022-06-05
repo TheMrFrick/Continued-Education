@@ -1,0 +1,23 @@
+<%- include("header") -%>
+  <div class="box" id="heading">
+    <h1>
+      <%= listTitle %>
+    </h1>
+  </div>
+  <div class="box">
+    <% todos.forEach((todo)=> { %>
+    <div class="item">
+      <input type="checkbox" name="" id="">
+      <p>
+        <%= todo %>
+      </p>
+    </div>
+    <% }) %>
+
+    <form class="item" action="/<%= urlLink %>" method="post">
+      <input type="text" name="newItem" id="" placeholder="New Task" autocomplete="off">
+      <button type="submit">+</button>
+    </form>
+  </div>
+<%- include("footer") -%>
+
