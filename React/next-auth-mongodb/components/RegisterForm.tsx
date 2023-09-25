@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { FormEvent, useState } from "react";
+import { useRouter } from "next/navigation";
 
 export default function RegisterForm() {
     const [name, setName] = useState('');
@@ -9,15 +10,35 @@ export default function RegisterForm() {
     const [password, setPassword] = useState('');
     const [error, setError] = useState('');
 
+    const router = useRouter();
+
     async function handleSubmit(e: FormEvent<HTMLFormElement>) {
         e.preventDefault();
         setError('');
-        if(!name || !email || !password){
+        if (!name || !email || !password) {
             setError("All fields are necessary");
             return;
         }
 
         try {
+
+            const resUserExists = await fetch('api/userExists', {
+                method: "POST",
+                headers: {
+                    'Content-Type': "application/json",
+                },
+                body: JSON.stringify({
+                    email
+                })
+            })
+
+            const { user } = await resUserExists.json();
+
+            if (user) {
+                setError("User already exists");
+                return;
+            }
+
             const res = await fetch('api/register', {
                 method: "POST",
                 headers: {
@@ -28,9 +49,10 @@ export default function RegisterForm() {
                 })
             })
 
-            if(res.ok) {
+            if (res.ok) {
                 const form = e.target as HTMLFormElement;
                 form.reset();
+                router.push('/');
             } else {
                 console.log("User Registration failed");
             }
