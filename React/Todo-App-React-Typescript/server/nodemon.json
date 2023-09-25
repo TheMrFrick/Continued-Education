@@ -1,0 +1,7 @@
+{
+  "env": {
+    "MONGO_USER": "THEMRFRICK",
+    "MONGO_PASSWORD": "PASSWORD",
+    "MONGO_DB": "todos_db"
+  }
+}
