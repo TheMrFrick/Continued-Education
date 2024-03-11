@@ -1,0 +1,14 @@
+{
+  "name": "pdffarser",
+  "version": "1.0.0",
+  "description": "Reads pdfs",
+  "main": "src/app.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kyle.Frick",
+  "license": "ISC",
+  "dependencies": {
+    "pdf-text-reader": "^4.0.1"
+  }
+}

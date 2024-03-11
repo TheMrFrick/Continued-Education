@@ -1,0 +1,757 @@
+[
+    {
+        "cardID": "FP-005",
+        "name": "FP-005 [Awakening to Super Saiyan]",
+        "qas": [
+            {
+                "question": "If your Leader has awakened, can you choose to not give the chosen card -10000 power after using this card's skill to give it -15000 power?",
+                "answer": "No, you can’t."
+            }
+        ]
+    },
+    {
+        "cardID": "FP-008",
+        "name": "FP-008 「Son Goku」",
+        "qas": [
+            {
+                "question": "Can you use this card's [On Play] skill to add 1 card from your hand to your energy in Rest Mode?",
+                "answer": "No, you can’t."
+            }
+        ]
+    },
+    {
+        "cardID": "FS01-04",
+        "name": "FS01-04 [Krillin]",
+        "qas": [
+            {
+                "question": "When does this card's [Permanent] skill apply?",
+                "answer": "It constantly applies during your turn."
+            }
+        ]
+    },
+    {
+        "cardID": "FS01-05",
+        "name": "FS01-05 [Shin]",
+        "qas": [
+            {
+                "question": "If you use this card in a combo during your turn, does the [Auto] skill activate?",
+                "answer": "No, it doesn't activate. [Opponent's Turn] skills only activate or apply during your opponent's turn."
+            }
+        ]
+    },
+    {
+        "cardID": "FS01-06",
+        "name": "FS01-06 [Android 17]",
+        "qas": [
+            {
+                "question": "When does this card's [Permanent] skill apply?",
+                "answer": "It constantly applies during your opponent's turn."
+            }
+        ]
+    },
+    {
+        "cardID": "FS01-08",
+        "name": "FS01-08 [Son Goku]",
+        "qas": [
+            {
+                "question": "Can you use this card in a combo?",
+                "answer": "Yes, you can. Players can use a Battle Card in a combo if it has 0 or more combo power."
+            }
+        ]
+    },
+    {
+        "cardID": "FS01-12",
+        "name": "FS01-12 [Beerus]",
+        "qas": [
+            {
+                "question": "If 2 copies of this card are in your Battle Area, can you use one Beerus to apply \"[When Attacking] Choose up to 1 of your other Battle Cards and it gets +5000 for the turn\" to the other Beerus?",
+                "answer": "Yes, you can. \"Other Battle Cards\" refers to cards other than this specific copy of the card, not the card name."
+            }
+        ]
+    },
+    {
+        "cardID": "FS01-15",
+        "name": "FS01-15 [Kamehameha]",
+        "qas": [
+            {
+                "question": "What happens if a card with 10000 combo power is in your opponent's Combo Area, this card's [Activate Battle] skill activates during the Defense Step, and an opponent's Battle Card in a battle with 5000 power is chosen?",
+                "answer": "The combo power is added to the Battle Card during the Damage Step. The power of the opponent's Battle Card that's still in a Battle remains at 5000 during the Offense Step, so the Battle Card's power is reduced to 0 or less and it's placed in its owner's Drop. Then, a transition to the Battle End Step immediately occurs."
+            }
+        ]
+    },
+    {
+        "cardID": "FS01-16",
+        "name": "FS01-16 [God Kamehameha]",
+        "qas": [
+            {
+                "question": "If you have no Battle Cards and this card's [Permanent] skill applies, can you pay 2 cost for this card and use it?",
+                "answer": "No, you can't."
+            },
+            {
+                "question": "If you have no Battle Cards in the Battle Area but have a Battle Card in your energy, can you use this card's [Permanent] skill to reduce the cost of this card by 1?",
+                "answer": "Yes, you can."
+            }
+        ]
+    },
+    {
+        "cardID": "FS02-01",
+        "name": "FS02-01 [Vegeta]",
+        "qas": [
+            {
+                "question": "If this card's [Activate Main] skill activates in a state where you have 7 or fewer cards in your hand, then your hand increases to 8 or more cards, does \"+15000 power for the turn\" apply?",
+                "answer": "Yes, it still applies."
+            }
+        ]
+    },
+    {
+        "cardID": "FS02-03",
+        "name": "FS02-03 [Gotenks]",
+        "qas": [
+            {
+                "question": "When you have 7 cards in your hand and this card's [On Play] skill activates, can you add 2 [Son Goten] or 2 [Trunks : Youth] from your Drop to your hand?",
+                "answer": "No, you can't."
+            }
+        ]
+    },
+    {
+        "cardID": "FS02-06",
+        "name": "FS02-06 [Son Goten]",
+        "qas": [
+            {
+                "question": "If this card's [When Attacking] skill increases your hand to 8 cards when you add a card from your life, can you use the \"then, if you have 7 or fewer cards in your hand, choose up to 1 of your opponent's Battle Cards with a cost of 2 or less and return it to its owner's hand\" part of the skill?",
+                "answer": "No, you can't."
+            }
+        ]
+    },
+    {
+        "cardID": "FS02-07",
+        "name": "FS02-07 [Son Gohan : Adolescence]",
+        "qas": [
+            {
+                "question": "If you have 7 or fewer cards in your hand after using a card in a combo, etc. during your turn, does this card's [Permanent] skill apply?",
+                "answer": "Yes, it applies."
+            }
+        ]
+    },
+    {
+        "cardID": "FS02-09",
+        "name": "FS02-09 [Trunks : Youth]",
+        "qas": [
+            {
+                "question": "If you have 7 or fewer cards in your hand after using a card in a combo, etc. during your turn, does this card's [Permanent] skill apply?",
+                "answer": "Yes, it applies."
+            }
+        ]
+    },
+    {
+        "cardID": "FS02-10",
+        "name": "FS02-10 [Videl]",
+        "qas": [
+            {
+                "question": "If you use this card in a combo during your turn, does the [Auto] skill activate?",
+                "answer": "No, it doesn't activate. [Opponent's Turn] skills only activate or apply during your opponent's turn."
+            }
+        ]
+    },
+    {
+        "cardID": "FS02-13",
+        "name": "FS02-13 [Vegeta]",
+        "qas": [
+            {
+                "question": "Can you use this card in a combo?",
+                "answer": "Yes, you can. Players can use a Battle Card in a combo if it has 0 or more combo power."
+            }
+        ]
+    },
+    {
+        "cardID": "FS02-15",
+        "name": "FS02-15 [Galick Gun]",
+        "qas": []
+    },
+    {
+        "cardID": "FS02-16",
+        "name": "FS02-16 [Final Flash]",
+        "qas": [
+            {
+                "question": "If you have 7 cards in your hand and this card's [Permanent] skill applies, can you pay 2 cost for this card and use it?",
+                "answer": "No, you can't."
+            },
+            {
+                "question": "Can you activate this card's [Activate Main] skill when you only have this card (1 copy) in your hand?",
+                "answer": "No, you can’t."
+            }
+        ]
+    },
+    {
+        "cardID": "FS03-01",
+        "name": "FS03-01 [Broly]",
+        "qas": [
+            {
+                "question": "When this card awakens, can you choose to not add a card from your life to your energy?",
+                "answer": "No, you can't."
+            },
+            {
+                "question": "What happens if your life is reduced to 0 by this card's [Awaken] skill?",
+                "answer": "You immediately lose the game."
+            },
+            {
+                "question": "Can you choose to not draw 1 card for this card's [Activate Main] skill?",
+                "answer": "No, you can't."
+            }
+        ]
+    },
+    {
+        "cardID": "FS03-10",
+        "name": "FS03-10 [Broly]",
+        "qas": [
+            {
+                "question": "Can you use this card in a combo?",
+                "answer": "Yes, you can. You can place a Battle Card with 0 or more combo power for a combo."
+            }
+        ]
+    },
+    {
+        "cardID": "FS03-11",
+        "name": "FS03-11 [Vegeta]",
+        "qas": [
+            {
+                "question": "If your energy increases to 6 or more during your opponent's turn due to your FS03-01 <Broly>'s skill, does this card's [Permanent] skill apply?",
+                "answer": "Yes, it applies."
+            }
+        ]
+    },
+    {
+        "cardID": "FS03-12",
+        "name": "FS03-12 [King Vegeta]",
+        "qas": [
+            {
+                "question": "If you use this card in a combo during your turn, does the [Auto] skill activate?",
+                "answer": "No, it doesn't activate. [Opponent's Turn] skills only activate or apply during your opponent's turn."
+            }
+        ]
+    },
+    {
+        "cardID": "FS03-13",
+        "name": "FS03-13 [Moah]",
+        "qas": [
+            {
+                "question": "Can this card's [On Play] skill activate if you have less than 5 cards in your deck?",
+                "answer": "Yes, it can. In a case such as when you have 3 cards in your deck, you look at the 3 cards and process this skill."
+            },
+            {
+                "question": "How do you perform \"place the rest at the bottom of your deck in a random order\"?",
+                "answer": "You randomize the cards using a method such as shuffling, then place the cards at the bottom of your deck."
+            }
+        ]
+    },
+    {
+        "cardID": "FS03-15",
+        "name": "FS03-15 [Gigantic Meteor]",
+        "qas": [
+            {
+                "question": "If you choose 0 cards for this card's [Activate Battle] skill, does \"then, if you have 6 or more energy, that card gets +10000 power for the battle\" apply?",
+                "answer": "No. The power doesn't increase for any card."
+            }
+        ]
+    },
+    {
+        "cardID": "FS04-02",
+        "name": "FS04-02 [Cui]",
+        "qas": [
+            {
+                "question": "Can this card's [When KO'd] skill activate if this card’s power is reduced to 0 or less?",
+                "answer": "No, it can't. When a Battle Card's power is reduced to 0 or less, it's placed in its owner's Drop and isn't treated as being KO'd."
+            }
+        ]
+    },
+    {
+        "cardID": "FS04-03",
+        "name": "FS04-03 [Golden Frieza]",
+        "qas": [
+            {
+                "question": "Can you use this card in a combo?",
+                "answer": "Yes, you can. You can place a Battle Card with 0 or more combo power for a combo."
+            }
+        ]
+    },
+    {
+        "cardID": "FS04-09",
+        "name": "FS04-09 [Cheelai : BR]",
+        "qas": [
+            {
+                "question": "If you use this card in a combo during your turn, does the [Auto] skill activate?",
+                "answer": "No, it doesn't activate. [Opponent's Turn] skills only activate or apply during your opponent's turn."
+            }
+        ]
+    },
+    {
+        "cardID": "FB01-005",
+        "name": "FB01-005 [Master Roshi]",
+        "qas": [
+            {
+                "question": "If you activate the [Activate Main] skill on 2 copies of this card, can you use FB01-032 [Tournament of Power Arena] for a cost of 0?",
+                "answer": "No, you can't. You must pay ① cost."
+            }
+        ]
+    },
+    {
+        "cardID": "FB01-006",
+        "name": "FB01-006 [Caulifla]",
+        "qas": [
+            {
+                "question": "When this card's [On Play] skill activates, can you play a [Kale] card with a cost of 3 from your hand in Rest Mode?",
+                "answer": "No, you can't. Unless specified otherwise, you must play it in Active Mode."
+            }
+        ]
+    },
+    {
+        "cardID": "FB01-010",
+        "name": "FB01-010 [Saonel]",
+        "qas": [
+            {
+                "question": "Can you include this card itself for \"if you have 2 or more Battle Cards with 《Namekian》 in their special traits\" in this card's [Permanent] skill?",
+                "answer": "Yes, you can."
+            }
+        ]
+    },
+    {
+        "cardID": "FB01-021",
+        "name": "FB01-021 [Hit]",
+        "qas": [
+            {
+                "question": "When this card's [When Attacking] skill activates, can you choose 1 of your opponent's Battle Cards and give it - 5000 power without adding 1 card from your life to your hand?",
+                "answer": "Yes. You can choose 1 of your opponent's Battle Cards and give it -5000 power even if you don't add 1 card from your life to your hand."
+            }
+        ]
+    },
+    {
+        "cardID": "FB01-025",
+        "name": "FB01-025 [Frost]",
+        "qas": [
+            {
+                "question": "When your opponent's Battle Card with more than 20000 power attacks and then its power is reduced to 20000 or less during the Defense Step, what happens to the attack?",
+                "answer": "The attack proceeds as-is, then you process the Defense Step."
+            }
+        ]
+    },
+    {
+        "cardID": "FB01-030",
+        "name": "FB01-030 [Assemble, Representatives of Universe 7!]",
+        "qas": [
+            {
+                "question": "If you pay this card's cost, can you activate its [Activate Main] and [Activate Battle] skills at the same time?",
+                "answer": "No, you can only activate its [Activate Main] or [Activate Battle] skill."
+            }
+        ]
+    },
+    {
+        "cardID": "FB01-031",
+        "name": "FB01-031 [Strong Warriors of Universe 6]",
+        "qas": [
+            {
+                "question": "If you pay this card's cost, can you activate its [Activate Main] and [Activate Battle] skills at the same time?",
+                "answer": "No, you can only activate its [Activate Main] or [Activate Battle] skill."
+            }
+        ]
+    },
+    {
+        "cardID": "FB01-036",
+        "name": "FB01-036 [Trunks : Future] (Awaken)",
+        "qas": [
+            {
+                "question": "When this card's [Activate Main] skill activates, can you choose either your Battle Card or your opponent's Battle Card?",
+                "answer": "Yes, you can choose either player's Battle Card."
+            }
+        ]
+    },
+    {
+        "cardID": "FB01-039",
+        "name": "FB01-039 [Goku Black]",
+        "qas": [
+            {
+                "question": "Can you add any type of card from your Drop to your hand for this card's [On Play] skill if the card has a cost of 4 or less?",
+                "answer": "Yes, as long as the card has a cost of 4 or less, can you add any 1 card from your Drop to your hand."
+            },
+            {
+                "question": "Can you use this card's skills to play [Goku Black] with a cost of 6 from your hand if its cost is reduced by 2 after you activate FB01-035 [Goku Black] (Awaken)'s [Activate Main] skill?",
+                "answer": "No, you can't. You can't use this card's skills on cards played by skills. \"Using a card\" means that you must declare payment of its cost."
+            },
+            {
+                "question": "When this card's [When Attacking] skill activates, can you play up to 1 Battle Card with a cost of 4 or less from your hand in Rest Mode?",
+                "answer": "No, you can't. Unless specified otherwise, you must play it in Active Mode."
+            }
+        ]
+    },
+    {
+        "cardID": "FB01-041",
+        "name": "FB01-041 [Gowasu]",
+        "qas": [
+            {
+                "question": "When this card's [When KO'd] skill activates, can you choose either your card or your opponent's card?",
+                "answer": "Yes, you can choose either player's card."
+            }
+        ]
+    },
+    {
+        "cardID": "FB01-043",
+        "name": "FB01-043 [Zamasu]",
+        "qas": [
+            {
+                "question": "If you activate this card's [Blocker] in a state where you have a [Goku Black] Battle Card, then the [Goku Black] Battle Card leaves the battle area during the Offense Step, is the activated [Blocker] skill negated?",
+                "answer": "No. Because [Blocker] has already activated and the attack target has switched, it isn't negated."
+            },
+            {
+                "question": "If you activate this card's [Blocker] in a state where you have a [Goku Black] Battle Card, then the [Goku Black] Battle Card is used in a combo and it leaves the battle area during the Defense Step, is the activated [Blocker] skill negated?",
+                "answer": "No. Because [Blocker] has already activated and the attack target has switched, it isn't negated."
+            }
+        ]
+    },
+    {
+        "cardID": "FB01-047",
+        "name": "FB01-047 [Son Goku]",
+        "qas": [
+            {
+                "question": "During your opponent's turn, if you activate this card's [Blocker] skill in a state where you have 8 cards in your hand, and you use 1 card from your hand in a combo during the Defense Step, you will then have 7 cards in your hand, so does this card's [Permanent] skill apply?",
+                "answer": "Yes, this card's [Permanent] skill will apply as soon as you have 7 cards or less in your hand."
+            }
+        ]
+    },
+    {
+        "cardID": "FB01-050",
+        "name": "FB01-050 [Trunks : Future]",
+        "qas": [
+            {
+                "question": "When this card's [On Play] skill activates, can you choose either your Battle Card or your opponent's Battle Card?",
+                "answer": "Yes, you can choose either player's Battle Card."
+            }
+        ]
+    },
+    {
+        "cardID": "FB01-051",
+        "name": "FB01-051 [Trunks : Future]",
+        "qas": [
+            {
+                "question": "When this card's [On Play] skill activates, can you choose either your Battle Card or your opponent's Battle Card?",
+                "answer": "Yes, you can choose either player's Battle Card."
+            }
+        ]
+    },
+    {
+        "cardID": "FB01-054",
+        "name": "FB01-054 [Haru/Maki]",
+        "qas": [
+            {
+                "question": "If you use this card from your hand and play it when you have 8 cards in your hand, can you use this card's [On Play] skill to give your [Trunks : Future] +10000 power?",
+                "answer": "Yes. This card's [On Play] skill will activate because you have 7 cards in your hand when the skill activates."
+            }
+        ]
+    },
+    {
+        "cardID": "FB01-055",
+        "name": "FB01-055 [Pan]",
+        "qas": [
+            {
+                "question": "When this card's [On Play] skill activates, can you discard 2 cards from your hand without drawing 2 cards?",
+                "answer": "No. You must draw 2 cards and discard 2 cards from your hand."
+            }
+        ]
+    },
+    {
+        "cardID": "FB01-056",
+        "name": "FB01-056 [Pilaf]",
+        "qas": [
+            {
+                "question": "If you use this card from your hand and play it when you have 8 cards in your hand, when this card's [On Play] skill activates, can you add up to 1 card with a cost of 1 or less and 《Earthling》 in its special traits from your Drop to your hand?",
+                "answer": "Yes. This card's [On Play] skill will activate because you have 7 cards in your hand when the skill activates."
+            }
+        ]
+    },
+    {
+        "cardID": "FB01-057",
+        "name": "FB01-057 [Bulma]",
+        "qas": [
+            {
+                "question": "If this card‘s [Activate Main] skill activates when you have 7 cards in your hand, then your hand increases to 10 cards, do you still reduce the cost by (●) the next time you use an Extra from your hand?",
+                "answer": "Yes, you reduce it by (●)."
+            },
+            {
+                "question": "If you activate the [Activate Main] skill on 3 copies of this card, can you use FB01-068 [Sinister Sickle] for a cost of 0?",
+                "answer": "No, you can't. You must pay ② cost."
+            },
+            {
+                "question": "If this card's [Activate Main] skill activates when you have 10 cards in your hand, then your hand is then reduced to 7 cards, do you reduce the cost by (●) the next time you use an Extra from your hand?",
+                "answer": "No, you don't reduce the cost."
+            }
+        ]
+    },
+    {
+        "cardID": "FB01-059",
+        "name": "FB01-059 [Vegeta]",
+        "qas": [
+            {
+                "question": "When this card's [When Attacking] skill activates, can you switch this card to Active Mode without placing 1 of your opponent's Battle Cards with a cost of 1 or less at the bottom of its owner's deck?",
+                "answer": "Yes, you can still switch it to Active Mode."
+            }
+        ]
+    },
+    {
+        "cardID": "FB01-062",
+        "name": "FB01-062 [Mai : Future]",
+        "qas": [
+            {
+                "question": "Does this card's [Auto] skill activate when an opponent's Battle Card is returned to their hand by one of your skills in a state where you have 8 cards in your hand?",
+                "answer": "No. The trigger conditions aren't met, so it doesn't activate."
+            },
+            {
+                "question": "If an opponent's Battle Card is returned to their hand by one of your skills in a state where you have 7 cards in your hand and 2 copies of this card in play, can you activate the [Auto] skill on both cards one at a time and draw a total of 2 cards?",
+                "answer": "Yes, you can."
+            }
+        ]
+    },
+    {
+        "cardID": "FB01-067",
+        "name": "FB01-067 [Black Kamehameha]",
+        "qas": [
+            {
+                "question": "Can you use this card's [Activate Battle] skill to place 1 card at the top of your deck and 2 cards at the bottom of your deck?",
+                "answer": "No, you can't. After using this skill to look at 3 cards, you must place all of them at the top or all of them at the bottom of your deck in any order."
+            }
+        ]
+    },
+    {
+        "cardID": "FB01-069",
+        "name": "FB01-069 [Sinister Shadows]",
+        "qas": [
+            {
+                "question": "If you activate this card's [Activate Main] skill in a state where you have 8 cards in your hand, can you switch up to 1 of your [Goku Black] Battle Cards to Active Mode?",
+                "answer": "Yes, you can switch it to Active Mode."
+            }
+        ]
+    },
+    {
+        "cardID": "FB01-070",
+        "name": "FB01-070 [Android 17/Android 18]",
+        "qas": [
+            {
+                "question": "If your energy is reduced from 6 to 3 while this card is attacking, does this card’s [Permanent] skill apply?",
+                "answer": "No. It will no longer apply as soon as you have 5 or less energy."
+            }
+        ]
+    },
+    {
+        "cardID": "FB01-073",
+        "name": "FB01-073 [Android 16]",
+        "qas": [
+            {
+                "question": "Does this card’s [Permanent] skill apply if you have 1 copy of FB01-078 [Android 17/Android 18] in your energy?",
+                "answer": "Yes, it will apply if you have FB01-078 [Android 17/Android 18] in your energy."
+            }
+        ]
+    },
+    {
+        "cardID": "FB01-077",
+        "name": "FB01-077 [Android 17]",
+        "qas": [
+            {
+                "question": "When this card's [On Play] skill activates, can you play up to 1 [Android 18] with a cost of 3 or less from your Drop in Rest Mode?",
+                "answer": "No, you can't. Unless specified otherwise, you must play it in Active Mode."
+            }
+        ]
+    },
+    {
+        "cardID": "FB01-081",
+        "name": "FB01-081 [Android 18]",
+        "qas": [
+            {
+                "question": "When this card's [On Play] skill activates, can you play up to 1 [Android 17] with a cost of 3 or less from your Drop in Rest Mode?",
+                "answer": "No, you can't. Unless specified otherwise, you must play it in Active Mode."
+            }
+        ]
+    },
+    {
+        "cardID": "FB01-093",
+        "name": "FB01-093 [Trunks : Future]",
+        "qas": [
+            {
+                "question": "Can this card attack if an Active Mode FB01-072 [Krillin] and a Rest Mode [Android 18] are the only cards in your opponent's Battle Area?",
+                "answer": "No, it can't."
+            }
+        ]
+    },
+    {
+        "cardID": "FB01-100",
+        "name": "FB01-100 [Brother-Sister Combination]",
+        "qas": [
+            {
+                "question": "If this card's [Activate Battle] skill activates when you have 14 cards in your Drop, can you add up to 1 card with a cost of 3 or more from your Drop to your energy in Rest Mode?",
+                "answer": "Yes, you can."
+            }
+        ]
+    },
+    {
+        "cardID": "FB01-101",
+        "name": "FB01-101 [Instant Kamehameha]",
+        "qas": [
+            {
+                "question": "Can you activate this card's [Activate Battle] skill when you have 0 cards in your energy?",
+                "answer": "No, you can't."
+            }
+        ]
+    },
+    {
+        "cardID": "FB01-105",
+        "name": "FB01-105 [Cooler] (Awaken)",
+        "qas": [
+            {
+                "question": "When this card's [Activate Main/Battle] skill activates, does energy switched to Active Mode have to have a cost of 4 or less and 《Frieza Clan》 in its special traits?",
+                "answer": "No. If you switch energy to Active Mode, you don't reference its special traits."
+            },
+            {
+                "question": "If a card with a cost of 4 or less and 《Frieza Clan》 in its special traits is chosen for FB01-114 [Guldo]'s skill during your opponent's turn, can the chosen card switch to Active Mode when this card's [Activate Main/Battle] skill activates during the same turn?",
+                "answer": "Yes, you can switch it to Active Mode."
+            },
+            {
+                "question": "If a Battle Card is chosen for FB01-114 [Guldo]'s skill during your opponent's turn and this card's [Activate Main/Battle] skill activates and switches the Battle Card to Active Mode in the same turn, then the card is switched to Rest Mode during your turn, can you use a skill to switch it to Active Mode again?",
+                "answer": "No, it can't switch to Active Mode because of FB01-114 [Guldo]'s skill."
+            }
+        ]
+    },
+    {
+        "cardID": "FB01-109",
+        "name": "FB01-109 [Ginyu]",
+        "qas": [
+            {
+                "question": "If you have 2 or fewer cards with 《Frieza's Army》 in their special traits after playing this card, can you then play [Ginyu]?",
+                "answer": "Yes, you can."
+            }
+        ]
+    },
+    {
+        "cardID": "FB01-114",
+        "name": "FB01-114 [Guldo]",
+        "qas": [
+            {
+                "question": "If you activate this card's [Activate Main] skill and choose your opponent's Rest Mode Battle Card, can the chosen card then switch to Active Mode when FB01- 105 [Cooler] (Awaken)'s [Activate Main/Battle] skill activates during the same turn?",
+                "answer": "Yes, it can."
+            },
+            {
+                "question": "If you activate this card's [Activate Main] skill and choose your opponent's Rest Mode Battle Card, the chosen card then switches to Active Mode when FB01- 105 [Cooler] (Awaken)'s [Activate Main/Battle] skill activates during the same turn, and that card is switched to Rest Mode during your opponent's next turn from an attack, etc., can that card switch to Active Mode again when FB01-105 [Cooler]'s [Activate Main/Battle] skill activates?",
+                "answer": "No, it can't."
+            }
+        ]
+    },
+    {
+        "cardID": "FB01-118",
+        "name": "FB01-118 [Salza]",
+        "qas": [
+            {
+                "question": "When this card's [Activate Main] skill activates, can you play up to 1 Battle Card with a cost of 2 or less and 《Cooler's Armored Squadron》 in its special traits from your hand in Rest Mode?",
+                "answer": "No, you can't. Unless specified otherwise, you must play it in Active Mode."
+            }
+        ]
+    },
+    {
+        "cardID": "FB01-119",
+        "name": "FB01-119 [Jeice]",
+        "qas": [
+            {
+                "question": "Can you include this card itself for \"if you have a total of 3 or more cards with 《Ginyu Force》 in their special traits among your Leader and Battle Cards\" in this card's [Permanent] skill?",
+                "answer": "Yes, you can."
+            }
+        ]
+    },
+    {
+        "cardID": "FB01-124",
+        "name": "FB01-124 [Neiz]",
+        "qas": [
+            {
+                "question": "When this card's [On Play] skill activates, can you choose 0 cards?",
+                "answer": "No, you can't."
+            }
+        ]
+    },
+    {
+        "cardID": "FB01-128",
+        "name": "FB01-128 [Frieza]",
+        "qas": [
+            {
+                "question": "When this card's [Activate Main] skill activates, can you play up to 1 Battle Card with a cost of 1 or less and 《Frieza's Army》 in its special traits from your hand in Rest Mode?",
+                "answer": "No, you can't. Unless specified otherwise, you must play it in Active Mode."
+            }
+        ]
+    },
+    {
+        "cardID": "FB01-129",
+        "name": "FB01-129 [Frieza]",
+        "qas": [
+            {
+                "question": "When FB01-105 [Cooler] (Awaken)'s [Activate Main/Battle] skill activates at a timing other than the Charge Phase, can this card switch to Active Mode?",
+                "answer": "Yes, it can."
+            }
+        ]
+    },
+    {
+        "cardID": "FB01-130",
+        "name": "FB01-130 [Mecha Frieza]",
+        "qas": [
+            {
+                "question": "When this card's [On Play] skill activates, can you play up to 1 [King Cold] card with a cost of 4 from your hand in Rest Mode?",
+                "answer": "No, you can't. Unless specified otherwise, you must play it in Active Mode."
+            }
+        ]
+    },
+    {
+        "cardID": "FB01-131",
+        "name": "FB01-131 [Meta-Cooler]",
+        "qas": [
+            {
+                "question": "Does this card's [Permanent] skill also allow you to include 5 or more copies of this card in your deck?",
+                "answer": "Yes, as long as the total number of cards in your deck is 60 or less, you can include as many copies of this card in your deck as you like."
+            },
+            {
+                "question": "When this card's [When KO'd] skill activates, can you play up to 1 [Meta-Cooler] card with a cost of 3 from your hand in Rest Mode?",
+                "answer": "No, you can't. Unless specified otherwise, you must play it in Active Mode."
+            }
+        ]
+    },
+    {
+        "cardID": "FB01-134",
+        "name": "FB01-134 [We Are Cooler's Armored Squadron!]",
+        "qas": [
+            {
+                "question": "If the conditions are met when this card's [Activate Main] skill activates, can you draw 1 card but choose to not switch energy to Active Mode?",
+                "answer": "Yes, you can."
+            }
+        ]
+    },
+    {
+        "cardID": "FB01-136",
+        "name": "FB01-136 [Supernova]",
+        "qas": [
+            {
+                "question": "If you choose an opponent's Battle Card with a cost of 4 or less for this card's [Activate Battle] skill that activated during your Offense Step, can it switch to Active Mode if FB01-137 [Body Change]'s skill later activates during your opponent's Defense Step?",
+                "answer": "Yes, it can."
+            }
+        ]
+    },
+    {
+        "cardID": "FB01-137",
+        "name": "FB01-137 [Body Change]",
+        "qas": [
+            {
+                "question": "If your opponent activates this card's [Activate Battle] skill during their Offense Step and your Battle Card with a cost of 4 or less is the target, can it switch to Active Mode if you then activate FB01-136 <Supernova>'s skill during your Defense Step?",
+                "answer": "Yes, it can."
+            }
+        ]
+    },
+    {
+        "cardID": "FB01-140",
+        "name": "FB01-140 [Son Gohan : Childhood]",
+        "qas": [
+            {
+                "question": "When this card is played, can it attack if you don't pay the cost?",
+                "answer": "Yes, this card can attack if you don't pay the cost."
+            }
+        ]
+    }
+]

@@ -1,0 +1,242 @@
+[
+    {
+        "cardID": "FS01-04",
+        "name": "FS01-04 [Krillin]",
+        "qas": [
+            {
+                "question": "Q1. When does this card's [Permanent] skill apply?",
+                "answer": "A1. It constantly applies during your turn."
+            }
+        ]
+    },
+    {
+        "cardID": "FS01-05",
+        "name": "FS01-05 [Shin]",
+        "qas": [
+            {
+                "question": "Q1. If you use this card in a combo during your turn, does the [Auto] skill activate? activate or apply during your opponent's turn.",
+                "answer": "A1. No, it doesn't activate. [Opponent's Turn] skills only"
+            }
+        ]
+    },
+    {
+        "cardID": "FS01-06",
+        "name": "FS01-06 [Android 17]",
+        "qas": [
+            {
+                "question": "Q1. When does this card's [Permanent] skill apply?",
+                "answer": "A1. It constantly applies during your opponent's turn."
+            }
+        ]
+    },
+    {
+        "cardID": "FS01-08",
+        "name": "FS01-08 [Son Goku]",
+        "qas": [
+            {
+                "question": "Q1. Can you use this card in a combo? it has 0 or more combo power.",
+                "answer": "A1. Yes, you can. Players can use a Battle Card in a combo if"
+            }
+        ]
+    },
+    {
+        "cardID": "FS01-12",
+        "name": "FS01-12 [Beerus]",
+        "qas": [
+            {
+                "question": "Q1. If 2 copies of this card are in your Battle Area, can you use one Beerus to apply \"[When Attacking] Choose up to 1 of your other Battle Cards and it gets +5000 for the turn\" to the other Beerus? than this specific copy of the card, not the card name.",
+                "answer": "A1. Yes, you can. \"Other Battle Cards\" refers to cards other"
+            }
+        ]
+    },
+    {
+        "cardID": "FS01-15",
+        "name": "FS01-15 [Kamehameha]",
+        "qas": [
+            {
+                "question": "Q1. What happens if a card with 10000 combo power is in your opponent's Combo Area, this card's [Activate Battle] skill activates during the Defense Step, and an opponent's Battle Card in a battle with 5000 power is chosen? Damage Step. The power of the opponent's Battle Card that's still in a Battle remains at 5000 during the Offense Step, so the Battle Card's power is reduced to 0 or less and it's placed in its owner's Drop. Then, a transition to the Battle End Step immediately occurs.",
+                "answer": "A1. The combo power is added to the Battle Card during the"
+            }
+        ]
+    },
+    {
+        "cardID": "FS01-16",
+        "name": "FS01-16 [God Kamehameha]",
+        "qas": [
+            {
+                "question": "Q1. If you have no Battle Cards and this card's [Permanent] skill applies, can you pay 2 cost for this card and use it?",
+                "answer": "A1. No, you can't."
+            }
+        ]
+    },
+    {
+        "cardID": "FS02-01",
+        "name": "FS02-01 [Vegeta]",
+        "qas": [
+            {
+                "question": "Q1. If this card's [Activate Main] skill activates in a state where you have 7 or fewer cards in your hand, then your hand increases to 8 or more cards, does \"+15000 power for the turn\" apply?",
+                "answer": "A1. Yes, it still applies."
+            }
+        ]
+    },
+    {
+        "cardID": "FS02-03",
+        "name": "FS02-03 [Gotenks]",
+        "qas": [
+            {
+                "question": "Q1. When you have 7 cards in your hand and this card's [On Play] skill activates, can you add 2 [Son Goten] or 2 [Trunks : Youth] from your Drop to your hand?",
+                "answer": "A1. No, you can't."
+            }
+        ]
+    },
+    {
+        "cardID": "FS02-06",
+        "name": "FS02-06 [Son Goten]",
+        "qas": [
+            {
+                "question": "Q1. If this card's [When Attacking] skill increases your hand to 8 cards when you add a card from your life, can you use the \"then, if you have 7 or fewer cards in your hand, choose up to 1 of your opponent's Battle Cards with a cost of 2 or less and return it to its owner's hand\" part of the skill?",
+                "answer": "A1. No, you can't."
+            }
+        ]
+    },
+    {
+        "cardID": "FS02-07",
+        "name": "FS02-07 [Son Gohan : Adolescence]",
+        "qas": [
+            {
+                "question": "Q1. If you have 7 or fewer cards in your hand after using a card in a combo, etc. during your turn, does this card's [Permanent] skill apply?",
+                "answer": "A1. Yes, it applies."
+            }
+        ]
+    },
+    {
+        "cardID": "FS02-09",
+        "name": "FS02-09 [Trunks : Youth]",
+        "qas": [
+            {
+                "question": "Q1. If you have 7 or fewer cards in your hand after using a card in a combo, etc. during your turn, does this card's [Permanent] skill apply?",
+                "answer": "A1. Yes, it applies."
+            }
+        ]
+    },
+    {
+        "cardID": "FS02-10",
+        "name": "FS02-10 [Videl]",
+        "qas": [
+            {
+                "question": "Q1. If you use this card in a combo during your turn, does the [Auto] skill activate? activate or apply during your opponent's turn.",
+                "answer": "A1. No, it doesn't activate. [Opponent's Turn] skills only"
+            }
+        ]
+    },
+    {
+        "cardID": "FS02-13",
+        "name": "FS02-13 [Vegeta]",
+        "qas": [
+            {
+                "question": "Q1. Can you use this card in a combo? it has 0 or more combo power.",
+                "answer": "A1. Yes, you can. Players can use a Battle Card in a combo if"
+            }
+        ]
+    },
+    {
+        "cardID": "FS02-16",
+        "name": "FS02-16 [Final Flash]",
+        "qas": [
+            {
+                "question": "Q1. If you have 7 cards in your hand and this card's [Permanent] skill applies, can you pay 2 cost for this card and use it?",
+                "answer": "A1. No, you can't."
+            }
+        ]
+    },
+    {
+        "cardID": "FS03-01",
+        "name": "FS03-01 [Broly]",
+        "qas": [
+            {
+                "question": "Q1. When this card awakens, can you choose to not add a card from your life to your energy?",
+                "answer": "A1. No, you can't."
+            }
+        ]
+    },
+    {
+        "cardID": "FS03-10",
+        "name": "FS03-10 [Broly]",
+        "qas": [
+            {
+                "question": "Q1. Can you use this card in a combo? combo power for a combo.",
+                "answer": "A1. Yes, you can. You can place a Battle Card with 0 or more"
+            }
+        ]
+    },
+    {
+        "cardID": "FS03-11",
+        "name": "FS03-11 [Vegeta]",
+        "qas": [
+            {
+                "question": "Q1. If your energy increases to 6 or more during your opponent's turn due to your FS03-01 <Broly>'s skill, does this card's [Permanent] skill apply?",
+                "answer": "A1. Yes, it applies."
+            }
+        ]
+    },
+    {
+        "cardID": "FS03-12",
+        "name": "FS03-12 [King Vegeta]",
+        "qas": [
+            {
+                "question": "Q1. If you use this card in a combo during your turn, does the [Auto] skill activate? activate or apply during your opponent's turn.",
+                "answer": "A1. No, it doesn't activate. [Opponent's Turn] skills only"
+            }
+        ]
+    },
+    {
+        "cardID": "FS03-13",
+        "name": "FS03-13 [Moah]",
+        "qas": [
+            {
+                "question": "Q1. Can this card's [On Play] skill activate if you have less than 5 cards in your deck? your deck, you look at the 3 cards and process this skill.",
+                "answer": "A1. Yes, it can. In a case such as when you have 3 cards in"
+            }
+        ]
+    },
+    {
+        "cardID": "FS03-15",
+        "name": "FS03-15 [Gigantic Meteor]",
+        "qas": [
+            {
+                "question": "Q1. If you choose 0 cards for this card's [Activate Battle] skill, does \"then, if you have 6 or more energy, that card gets +10000 power for the battle\" apply?",
+                "answer": "A1. No. The power doesn't increase for any card."
+            }
+        ]
+    },
+    {
+        "cardID": "FS04-02",
+        "name": "FS04-02 [Cui]",
+        "qas": [
+            {
+                "question": "Q1. Can this card's [When KO'd] skill activate if this card’s power is reduced to 0 or less? or less, it's placed in its owner's Drop and isn't treated as being KO'd.",
+                "answer": "A1. No, it can't. When a Battle Card's power is reduced to 0"
+            }
+        ]
+    },
+    {
+        "cardID": "FS04-03",
+        "name": "FS04-03 [Golden Frieza]",
+        "qas": [
+            {
+                "question": "Q1. Can you use this card in a combo? combo power for a combo.",
+                "answer": "A1. Yes, you can. You can place a Battle Card with 0 or more"
+            }
+        ]
+    },
+    {
+        "cardID": "FS04-09",
+        "name": "FS04-09 [Cheelai : BR]",
+        "qas": [
+            {
+                "question": "Q1. If you use this card in a combo during your turn, does the [Auto] skill activate? activate or apply during your opponent's turn.",
+                "answer": "A1. No, it doesn't activate. [Opponent's Turn] skills only"
+            }
+        ]
+    }
+]
