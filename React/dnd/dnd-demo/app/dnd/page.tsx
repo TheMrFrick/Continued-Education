@@ -2,14 +2,11 @@
 import React, { useState } from "react";
 import { DndContext, DragEndEvent, closestCenter } from "@dnd-kit/core";
 import { arrayMove, SortableContext, verticalListSortingStrategy } from '@dnd-kit/sortable'
-import { Draggable } from "@/components/Draggable";
-import { Droppable } from "@/components/Droppable";
 import { SortableItem } from "@/components/SortableItem";
 
 export default function App() {
   const [languages, setLanguages] = useState(['Java', 'Python','Javascript' , 'Typescript']);
   const [isDropped, setIsDropped] = useState(false);
-  const draggableMarkup = <Draggable>Drag me</Draggable>;
 
   function handleDragEnd(event: DragEndEvent) {
     // if (event.over && event.over.id === "droppable") {
@@ -39,8 +36,6 @@ export default function App() {
           ))}
         </SortableContext>
       </div>
-      {!isDropped ? draggableMarkup : null}
-      <Droppable>{isDropped ? draggableMarkup : "Drop here"}</Droppable>
     </DndContext>
   );
 }

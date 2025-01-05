@@ -3,8 +3,7 @@ import {CSS} from '@dnd-kit/utilities';
 import { Card, CardHeader, CardTitle } from "./ui/card";
 
 export function SortableItem(props : any){
-    // props.id
-    
+
     const { attributes, listeners, setNodeRef, transform, transition } = useSortable({id: props.id});
 
     const style = {
