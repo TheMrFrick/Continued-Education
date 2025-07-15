@@ -11,13 +11,13 @@ function main() {
   fs.mkdirSync(outputPath, { recursive: true });
 
   fs.readdirSync(directoryPath).forEach(async (file) => {
-    if (path.extname(file).toLowerCase() === ".png") {
+    if (path.extname(file).toLowerCase() === ".png" || path.extname(file).toLowerCase() === '.jpg') {
       const inputPath = path.join(directoryPath, file);
       // const outputPat = path.join(outputPath, file); // to .png
       const outputPat = path.join(outputPath, file.split('.')[0] + '.webp'); //to .webp
       try {
         await sharp(inputPath)
-          .resize({ width: 640, height: 894 }) // Adjust width as needed
+          // .resize({ width: 640, height: 894 }) // Adjust width as needed
           .webp({ quality: 50 })
           .toFile(outputPat);
         console.log(`Processed: ${file}`);

@@ -1,0 +1,139 @@
+<Panel id="customUI" rectAlignment="LowerRight" offsetXY="0 0" width="100%" height="100%">
+    <!-- Background Image -->
+
+    <Panel id="hud_overlay_panel" rectAlignment="LowerRight" offsetXY="0 20" width="349" height="460">
+        <Image id="hud_overlay_masters" image="https://steamusercontent-a.akamaihd.net/ugc/2457352616125671834/1A73639E4E402236B3DE2C13752ED5F50507B663/" width="349" height="460" preserveAspect="false" active="false" />
+        <Image id="hud_overlay_FW" image="https://steamusercontent-a.akamaihd.net/ugc/2461856773364733755/FCAE0A954F55608DC755E5EF4705234207EF6A4B/" width="349" height="460" preserveAspect="false" active="false" />
+    </Panel>
+
+    <Panel id="handSizePanel" rectAlignment="LowerRight" offsetXY="80 450" width="200" height="100">
+        <Text id="handSize_Bottom" rectAlignment="UpperCenter" position="-118 -405" width="140" height="30" fontSize="22" color="#FFFFFF"><b>0</b></Text>
+        <Text id="handSize_Top" rectAlignment="UpperCenter" position="-118 -258" width="140" height="30" fontSize="22" color="#FFFFFF"><b>0</b></Text>
+    </Panel>
+
+    <Panel id="lifePanel" rectAlignment="LowerRight" offsetXY="80 415" width="200" height="100">
+        <Text id="life_Bottom" rectAlignment="UpperCenter" position="-225 -330" width="200" height="100" fontSize="62" color="#0e0e0e"><b>0</b></Text>
+        <Text id="life_Top" rectAlignment="UpperCenter" position="-225 -184" width="200" height="100" fontSize="62" color="#0e0e0e"><b>0</b></Text>
+    </Panel>
+
+    <Panel id="deckPanel" rectAlignment="LowerRight" offsetXY="80 380" width="200" height="100">
+        <Text id="deck_Bottom" rectAlignment="UpperCenter" position="-58 -335" width="140" height="30" fontSize="22" color="#FFFFFF"><b>0</b></Text>
+        <Text id="deck_Top" rectAlignment="UpperCenter" position="-58 -188" width="140" height="30" fontSize="22" color="#FFFFFF"><b>0</b></Text>
+    </Panel>
+
+    <Panel id="zDeckPanel" recTAlignment="LowerRight" offsetXY="80 380" width="200" height="100">
+        <Text id="zDeck_Bottom" rectAlignment="UpperCenter" position="5 -300" width="200" height="100" fontSize="22" color="#FFFFFF"><b>0</b></Text>
+        <Text id="zDeck_Top" rectAlignment="UpperCenter" position="5 -153" width="200" height="100" fontSize="22" color="#FFFFFF"><b>0</b></Text>
+    </Panel>
+
+    <Panel id="energyPanel" rectAlignment="LowerRight" offsetXY="80 310" width="200" height="100">
+        <Text id="energy_Bottom" rectAlignment="UpperCenter" position="-282 -293" width="200" height="100" fontSize="42" color="#0e0e0e"><b>0</b></Text>
+        <Text id="energy_Top" rectAlignment="UpperCenter" position="-282 -147" width="200" height="100" fontSize="42" color="#0e0e0e"><b>0</b></Text>
+    </Panel>
+
+    <Panel id="zEnergyPanel" rectAlignment="LowerRight" offsetXY="80 310" width="200" height="100">
+        <Text id="zEnergy_Bottom" rectAlignment="UpperCenter" position="-219 -296" width="200" height="100" fontSize="22" color="#0e0e0e"><b>0</b></Text>
+        <Text id="zEnergy_Top" rectAlignment="UpperCenter" position="-219 -150" width="200" height="100" fontSize="22" color="#0e0e0e"><b>0</b></Text>
+    </Panel>
+
+    <Panel id="dropPanel" rectAlignment="LowerRight" offsetXY="80 310" width="200" height="100">
+        <Text id="drop_Bottom" rectAlignment="UpperCenter" position="-28 -305" width="140" height="30" fontSize="22" color="#FFFFFF"><b>0</b></Text>
+        <Text id="drop_Top" rectAlignment="UpperCenter" position="-28 -159" width="140" height="30" fontSize="22" color="#FFFFFF"><b>0</b></Text>
+    </Panel>
+
+    <Panel id="warpPanel" rectAlignment="LowerRight" offsetXY="80 310" width="200" height="100">
+        <Text id="warp_Bottom" rectAlignment="UpperCenter" position="-88 -305" width="140" height="30" fontSize="22" color="#FFFFFF"><b>0</b></Text>
+        <Text id="warp_Top" rectAlignment="UpperCenter" position="-88 -159" width="140" height="30" fontSize="22" color="#FFFFFF"><b>0</b></Text>
+    </Panel>
+
+    <!-- Button Panels -->
+    <Panel id="drawStartingHand_panel" rectAlignment="LowerRight" offsetXY="-40 420" width="150" height="36">
+        <Button id="drawStartingHand_button" onClick="drawStartingHand" image="https://steamusercontent-a.akamaihd.net/ugc/2497878693370816439/BB3E67B748D14AEDBF863E0B35664BCE535B6CF0/" width="150" height="36" color="#FFFFFF" />
+    </Panel>
+
+    <Panel id="mulligan_panel" rectAlignment="LowerRight" offsetXY="-40 355" width="150" height="36">
+        <Button id="mulligan_button" onClick="mulligan" image="https://steamusercontent-a.akamaihd.net/ugc/2497878693377479247/4F2B7208ED7884A43E1B39EA8DC9E0FE883B243B/" width="150" height="36" color="#FFFFFF" />
+    </Panel>
+
+    <Panel id="setLife_panel" rectAlignment="LowerRight" offsetXY="-40 315" width="150" height="36">
+        <Button id="setLife_button" onClick="setLife" image="https://steamusercontent-a.akamaihd.net/ugc/2497878693377479186/9614DF561A004A14205A526A1C7BF75590F8326B/" width="150" height="36" color="#FFFFFF"/>
+    </Panel>
+
+    <Panel id="drawCard_panel" rectAlignment="LowerRight" offsetXY="-40 515" width="150" height="36">
+        <Button id="drawCard_button" onClick="drawCard" image="https://steamusercontent-a.akamaihd.net/ugc/2497878693370825894/3713C9D270C1EB0EFBF1CB0D994E5F8CDB263282/" width="150" height="36" color="#FFFFFF" active="false" />
+    </Panel>
+
+    <Panel id="untapAll_panel" rectAlignment="LowerRight" offsetXY="-40 480" width="150" height="36">
+        <Button id="untapAll_button" onClick="untapAll" image="https://steamusercontent-a.akamaihd.net/ugc/2497878693370841561/280A91AD674795E23B4435B3076197E27B16A2B4/" width="150" height="36" color="#FFFFFF" active="false" />
+    </Panel>
+
+    <Panel id="drawLife_panel" rectAlignment="LowerRight" offsetXY="-40 420" width="150" height="36">
+        <Button id="drawLife_button" onClick="drawLife" image="https://steamusercontent-a.akamaihd.net/ugc/2497878693377470392/1FE83CF5EC2226BB895879E3197D28FED7F27EF2/" width="150" height="36" color="#FFFFFF" active="false" />
+    </Panel>
+
+    <Panel id="mill_panel" rectAlignment="LowerRight" offsetXY="-40 385" width="150" height="36">
+        <Button id="mill_button" onClick="clickedMill" image="https://steamusercontent-a.akamaihd.net/ugc/2497878693381896557/CCA4F9D8854783D793C591EE3820DEEB16F5EED6/" width="150" height="36" color="#FFFFFF" active="false"/>
+    </Panel>
+
+    <Panel id="overRealm_panel" rectAlignment="LowerRight" offsetXY="-40 350" width="150" height="36">
+        <Button id="overRealm_button" onClick="clickedOverRealm" image="https://steamusercontent-a.akamaihd.net/ugc/2497878693382480179/BFC5ACDD6E264109AF2552AAF782B7B8AF4D9D54/" width="150" height="36" color="#FFFFFF" active="false" />
+    </Panel>
+
+    <Panel id="gainLife_panel" rectAlignment="LowerRight" offsetXY="-40 350" width="150" height="36">
+        <Button id="gainLife_button" onClick="clickedGainLife" image="https://steamusercontent-a.akamaihd.net/ugc/2457352616127118084/E8BF78B6F745A103A4C28092637816FAC65C574B/" width="150" height="36" color="#FFFFFF" active="false" />
+    </Panel>
+
+    <Panel id="takeCrit_panel" rectAlignment="LowerRight" offsetXY="-40 315" width="150" height="36">
+        <Button id="takeCrit_button" onClick="takeCrit" image="https://steamusercontent-a.akamaihd.net/ugc/2497878693377470484/46EC3DD9CCEFE565880CD17F4B74B34EA2B7BD4A/" width="150" height="36" color="#FFFFFF" active="false" />
+    </Panel>
+
+    <Panel id="switch_panel" rectAlignment="LowerRight" offsetXY="0 164" width="200" height="41">
+        <Button id="switchFW_button" onClick="clickedSwitchGames" image="https://steamusercontent-a.akamaihd.net/ugc/2457352616133373276/4A5DBBC588506E56081716A61BDFC27A49021D92/" width="200" height="41" color="#FFFFFF" active="false" />
+        <Button id="switchMasters_button" onClick="clickedSwitchGames" image="https://steamusercontent-a.akamaihd.net/ugc/2457352616133373361/2ACD8386EA9B6B1FF46B96AEA8940D85DC59BF37/" width="200" height="41" color="#FFFFFF" active="false" />
+    </Panel>
+
+    <Panel id="response_panel" rectAlignment="LowerRight" offsetXY="-128 177" width="64" height="16" active="false">
+        <Button id="response_button" onClick="clickedNoResponse" image="https://steamusercontent-a.akamaihd.net/ugc/2497878693370334023/D6F48BCD7E7CEA43B520A440C62D14CB6F75C627/" width="64" height="16" color="#FFFFFF" />
+    </Panel>
+
+    <Panel id="combo_panel" rectAlignment="LowerRight" offsetXY="-64 177" width="64" height="16" active="false">
+        <Button id="combo_button" onClick="clickedNoCombos" image="https://steamusercontent-a.akamaihd.net/ugc/2497878693370232679/276C09BB9EEAD088DC4C4445079C95A3B89198F2/" width="64" height="16" color="#FFFFFF" />
+    </Panel>
+
+    <Panel id="endTurn_panel" rectAlignment="LowerRight" offsetXY="0 177" width="64" height="16" active="false">
+        <Button id="endTurn_button" onClick="clickedEndTurn" image="https://steamusercontent-a.akamaihd.net/ugc/2497878693370232565/39035FFBE8360E26A355C47474435DAC7E05FF99/" width="64" height="16" color="#FFFFFF" />
+    </Panel>
+</Panel>
+
+<Panel id="customUI_wait" rectAlignment="Center" offsetXY="0 400" width="100%" height="100%" active="false">
+    <!-- Background Image --> 
+
+    <Panel id="hud_overlay_wait_panel" rectAlignment="Center" offsetXY="0 0" width="683" height="135">
+        <Image id="hud_overlay_search" image="https://steamusercontent-a.akamaihd.net/ugc/2491139050700186122/920082C474A747642567903C62B8AAFB87980EF9/" width="683" height="135" preserveAspect="false"/>
+    </Panel>
+</Panel>
+
+<Panel id="customUI_import" rectAlignment="Center" offsetXY="0 400" width="100%" height="100%" active="false">
+    <!-- Background Image --> 
+
+    <Panel id="hud_overlay_import_panel" rectAlignment="Center" offsetXY="0 0" width="683" height="135">
+        <Image id="hud_overlay_import" image="https://steamusercontent-a.akamaihd.net/ugc/2369543762731731794/87D966E68832F023B91F7DC8D1DB0276101946AF/" width="683" height="135" preserveAspect="false"/>
+    </Panel>
+</Panel>
+
+<Panel id="splashScreen" width="100%" height="100%" position="0 0 0" active="true">
+    <Image id="splash1" width="100%" height="100%" preserveAspect="false" image="https://steamusercontent-a.akamaihd.net/ugc/2441593112472762872/984E7451CFBDC40FAF16F94F25D6505F8C25E79D/" />
+    <Image id="splashMasters" width="100%" height="100%" preserveAspect="false" image="https://steamusercontent-a.akamaihd.net/ugc/2441593112472762996/93005B61AF3CE038E9B1B5ED15A8D5152E104A5A/" active="false" />
+    <Image id="splashFW" width="100%" height="100%" preserveAspect="false" image="https://steamusercontent-a.akamaihd.net/ugc/2441593112472766292/5564DA2BE5B401DE908F407F1900E3AC64D30B44/" active="false" />
+
+    <Panel id="splash1Menu" width="400" height="100" rectAlignment="center" position="0 0 0">
+        <Button onClick="onSelectMasters" image="https://steamusercontent-a.akamaihd.net/ugc/2465233205269459011/F2189F978B8040E72EAD08C4C364596BC061B22D/" width="239" height="47" position="0 -250 0" colors="#ffffff, #d99124, #cb5929" />
+        <Button onClick="onSelectFW" image="https://steamusercontent-a.akamaihd.net/ugc/2457352616127657060/959E8A8EAC68F375BCBF64B20DF5FCA57F53DF9D/" width="409" height="47" position="0 -315 0" colors="#ffffff, #d99124, #cb5929" />
+    </Panel>
+    
+    <Panel id="splash2Menu" width="400" height="100" rectAlignment="center" position="0 0 0" active="false">
+        <Button onClick="onSelectVersus" image="https://steamusercontent-a.akamaihd.net/ugc/2465233205269492771/9CFDABD1C0E57997CA36451EE635FE00BD8795F5/" width="206" height="50" position="0 -250 0" colors="#FFFFFF, #d99124, #cb5929" />
+        <Button onClick="onSelectDeckImport" image="https://steamusercontent-a.akamaihd.net/ugc/2465233205269492598/BD53B35BB0DE4EAAA8DB960E1156BA11B8CE2506/" width="323" colors="#FFFFFF, #d99124, #cb5929" height="50" position="0 -315 0"/>
+        <Button onClick="onSelectBack" image="https://steamusercontent-a.akamaihd.net/ugc/2465233205269492500/92A26358FCA501437079D481DE02C321285D17E4/" width="168" colors="#FFFFFF, #d99124, #cb5929" height="50" position="0 -385 0" />
+    </Panel>
+</Panel>

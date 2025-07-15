@@ -1,7 +1,7 @@
 import { readdirSync, renameSync } from "fs";
 
 const directoryPath =
-  "E:/Deckplanet Data/Alpha Clash TCG Digital Assets/Alpha Clash TCG Digital Assets/Set 4 Genesis Returns/TC PROMO/output";
+  "E:/Deckplanet Data/Alpha Clash TCG Digital Assets/Alpha Clash TCG Digital Assets/Set 5 Cards";
 
 const possibleCardNums: Set<string> = new Set<string>();
 
@@ -22,8 +22,8 @@ async function main() {
         if (!possibleCardNums.has(mutated_name)) {
           renameSync(
             directoryPath + "/" + v,
-            // directoryPath + "/" + mutated_name +'.png'
-            directoryPath + "/" + mutated_name +'.webp'
+            directoryPath + "/" + mutated_name +'.png'
+            // directoryPath + "/" + mutated_name +'.webp'
           );
           possibleCardNums.add(mutated_name);
           break;
@@ -34,8 +34,8 @@ async function main() {
         i++;
       }
     } else {
-      // renameSync(directoryPath + "/" + v, directoryPath + "/" + num +'.png');
-      renameSync(directoryPath + "/" + v, directoryPath + "/" + num +'.webp');
+      renameSync(directoryPath + "/" + v, directoryPath + "/" + num +'.png');
+      // renameSync(directoryPath + "/" + v, directoryPath + "/" + num +'.webp');
       possibleCardNums.add(num);
     }
     // possibleCardNums.push(filt[0]);
