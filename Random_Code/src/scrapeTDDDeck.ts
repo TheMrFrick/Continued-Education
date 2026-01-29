@@ -11,8 +11,8 @@ async function scrapeTopDeckDiffusion() {
     headers: { "Content-Type": "application/json" },
   });
   console.log(data.status);
-  //   const json = await data.json();
-  //   console.log(json);
+  const json = await data.json();
+  console.log(json);
 }
 
 scrapeTopDeckDiffusion();

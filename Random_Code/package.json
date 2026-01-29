@@ -12,6 +12,7 @@
     "axios": "^1.7.2",
     "cheerio": "^1.0.0",
     "clipboardy": "^2.3.0",
+    "pdf-lib": "^1.17.1",
     "sharp": "^0.33.5"
   },
   "devDependencies": {

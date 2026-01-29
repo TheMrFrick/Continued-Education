@@ -3,7 +3,7 @@ import sharp from "sharp";
 import path from "path";
 
 const directoryPath =
-  "E:/Deckplanet Data/Gundam";
+  "E:/Deckplanet Data/Wonders of the First/Press Kit";
 
 const outputPath = directoryPath + "/output";
 

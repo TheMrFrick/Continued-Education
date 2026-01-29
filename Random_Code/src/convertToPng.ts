@@ -3,7 +3,7 @@ import sharp from "sharp";
 import path from "path";
 
 const directoryPath =
-  "E:/Deckplanet Data/Alpha Clash/Playtest Cards/AC6 Test Cards";
+  "E:/Deckplanet Data/Alpha Clash/Playtest Cards/Minion Update";
 
 const outputPath = directoryPath + "/output";
 
@@ -11,7 +11,7 @@ function main() {
   fs.mkdirSync(outputPath, { recursive: true });
 
   fs.readdirSync(directoryPath).forEach(async (file) => {
-    if (path.extname(file).toLowerCase() === ".webp") {
+    if (path.extname(file).toLowerCase() === ".webp" || path.extname(file).toLowerCase() === ".jpg") {
       const inputPath = path.join(directoryPath, file);
       // const outputPat = path.join(outputPath, file); // to .png
       const outputPat = path.join(outputPath, file.split('.')[0] + '.png'); //to .webp
