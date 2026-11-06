@@ -1,0 +1,321 @@
+<title>Simon Says Tracker</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&display=swap">
+<style>
+  /* Deliberately single-theme: the dark plastic of a controller. */
+  :root {
+    color-scheme: dark;
+    --ground: #121418;
+    --shell: #1b1e24;
+    --shell-edge: #2a2e36;
+    --well: #0c0e11;
+    --ink: #e6e8ec;
+    --muted: #8a909c;
+    --tri: #3fd6b0;
+    --cir: #ff5a6e;
+    --crs: #6fa8ff;
+    --sqr: #e08ae0;
+    --danger: #ff5a6e;
+    --font: "Chakra Petch", ui-sans-serif, system-ui, "Segoe UI", sans-serif;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--ground);
+    color: var(--ink);
+    font-family: var(--font);
+    padding-inline: 16px;
+    padding-block: 24px 40px;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .app {
+    max-width: 720px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+  h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-wrap: balance;
+  }
+  .count {
+    font-size: 0.8rem;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    font-variant-numeric: tabular-nums;
+  }
+  .count b { color: var(--ink); font-size: 1.1rem; letter-spacing: 0; }
+
+  /* Sequence readout */
+  .readout {
+    background: var(--well);
+    border: 1px solid var(--shell-edge);
+    border-radius: 14px;
+    padding: 14px;
+    min-height: 132px;
+    max-height: 40vh;
+    overflow-y: auto;
+  }
+  .seq {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .seq li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    width: 44px;
+  }
+  .seq li svg { width: 34px; height: 34px; }
+  .seq li span {
+    font-size: 0.68rem;
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+  }
+  .seq li.latest svg { animation: pop 220ms ease-out; }
+  .seq li.latest span { color: var(--ink); }
+  @keyframes pop { from { transform: scale(0.4); opacity: 0.2; } to { transform: scale(1); opacity: 1; } }
+  .empty {
+    margin: 0;
+    color: var(--muted);
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+
+  /* Controller face */
+  .pad {
+    background: var(--shell);
+    border: 1px solid var(--shell-edge);
+    border-radius: 28px;
+    padding: 24px 16px;
+    display: flex;
+    justify-content: center;
+  }
+  .diamond {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 96px));
+    grid-template-rows: repeat(3, minmax(0, 96px));
+    gap: 6px;
+    width: min(100%, 300px);
+    aspect-ratio: 1;
+    max-width: 100%;
+  }
+  .btn {
+    appearance: none;
+    border: 2px solid #2f333c;
+    background: radial-gradient(circle at 50% 35%, #2b2f37, #16181d 70%);
+    border-radius: 50%;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+    box-shadow: 0 4px 0 #07080a, inset 0 1px 0 rgba(255,255,255,0.06);
+    transition: transform 60ms ease, box-shadow 60ms ease;
+    aspect-ratio: 1;
+    width: 100%;
+  }
+  .btn svg { width: 46%; height: 46%; }
+  .btn:active, .btn.pressed { transform: translateY(3px); box-shadow: 0 1px 0 #07080a, inset 0 1px 0 rgba(255,255,255,0.04); }
+  .btn:focus-visible { outline: 3px solid var(--ink); outline-offset: 3px; }
+  .btn[data-key="triangle"] { grid-column: 2; grid-row: 1; }
+  .btn[data-key="square"]   { grid-column: 1; grid-row: 2; }
+  .btn[data-key="circle"]   { grid-column: 3; grid-row: 2; }
+  .btn[data-key="cross"]    { grid-column: 2; grid-row: 3; }
+
+  /* Actions */
+  .actions {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .act {
+    flex: 1 1 140px;
+    appearance: none;
+    font: 600 1rem var(--font);
+    letter-spacing: 0.04em;
+    color: var(--ink);
+    background: var(--shell);
+    border: 1px solid var(--shell-edge);
+    border-radius: 12px;
+    padding: 14px 16px;
+    cursor: pointer;
+  }
+  .act:hover:not(:disabled) { border-color: #3b404b; }
+  .act:disabled { opacity: 0.4; cursor: default; }
+  .act:focus-visible { outline: 3px solid var(--ink); outline-offset: 2px; }
+  .act.armed { background: var(--danger); border-color: var(--danger); color: #1a0508; }
+  .hint {
+    margin: 0;
+    font-size: 0.8rem;
+    color: var(--muted);
+    line-height: 1.6;
+  }
+  kbd {
+    font: 600 0.75rem var(--font);
+    border: 1px solid var(--shell-edge);
+    border-bottom-width: 2px;
+    border-radius: 5px;
+    padding: 1px 6px;
+    color: var(--ink);
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .seq li.latest svg { animation: none; }
+    .btn { transition: none; }
+  }
+</style>
+
+<div class="app">
+  <header>
+    <h1>Simon Says Tracker</h1>
+    <div class="count" aria-live="polite">Length <b id="len">0</b></div>
+  </header>
+
+  <section class="readout" aria-label="Sequence so far">
+    <p class="empty" id="empty">Tap a button to start the sequence. Each press is added to the end.</p>
+    <ol class="seq" id="seq"></ol>
+  </section>
+
+  <section class="pad" aria-label="Controller buttons">
+    <div class="diamond">
+      <button class="btn" id="btn-triangle" data-key="triangle" aria-label="Triangle"></button>
+      <button class="btn" id="btn-square" data-key="square" aria-label="Square"></button>
+      <button class="btn" id="btn-circle" data-key="circle" aria-label="Circle"></button>
+      <button class="btn" id="btn-cross" data-key="cross" aria-label="Cross"></button>
+    </div>
+  </section>
+
+  <div class="actions">
+    <button class="act" id="undo" type="button">Undo last</button>
+    <button class="act" id="clear" type="button">Clear all</button>
+  </div>
+
+  <p class="hint">
+    Keyboard: <kbd>↑</kbd> triangle · <kbd>←</kbd> square · <kbd>→</kbd> circle · <kbd>↓</kbd> cross ·
+    <kbd>Backspace</kbd> undo · <kbd>Esc</kbd> clear
+  </p>
+</div>
+
+<script>
+(function () {
+  var STORE = "simon-says-tracker-seq";
+
+  var SHAPES = {
+    triangle: '<polygon points="50,14 88,80 12,80" fill="none" stroke="var(--tri)" stroke-width="9" stroke-linejoin="round"/>',
+    circle:   '<circle cx="50" cy="50" r="34" fill="none" stroke="var(--cir)" stroke-width="9"/>',
+    cross:    '<path d="M20 20 L80 80 M80 20 L20 80" fill="none" stroke="var(--crs)" stroke-width="9" stroke-linecap="round"/>',
+    square:   '<rect x="18" y="18" width="64" height="64" fill="none" stroke="var(--sqr)" stroke-width="9" stroke-linejoin="round"/>'
+  };
+  function icon(key) {
+    return '<svg viewBox="0 0 100 100" aria-hidden="true">' + SHAPES[key] + '</svg>';
+  }
+
+  var seq = [];
+  try {
+    var saved = JSON.parse(localStorage.getItem(STORE) || "[]");
+    if (Array.isArray(saved)) seq = saved.filter(function (k) { return SHAPES[k]; });
+  } catch (e) {}
+
+  var $seq = document.getElementById("seq");
+  var $empty = document.getElementById("empty");
+  var $len = document.getElementById("len");
+  var $undo = document.getElementById("undo");
+  var $clear = document.getElementById("clear");
+  var readout = document.querySelector(".readout");
+  var armTimer = null;
+
+  document.querySelectorAll(".btn").forEach(function (b) {
+    b.innerHTML = icon(b.dataset.key);
+    b.addEventListener("click", function () { add(b.dataset.key); });
+  });
+
+  function save() {
+    try { localStorage.setItem(STORE, JSON.stringify(seq)); } catch (e) {}
+  }
+
+  function render(animateLast) {
+    $seq.innerHTML = seq.map(function (k, i) {
+      var cls = animateLast && i === seq.length - 1 ? ' class="latest"' : "";
+      return "<li" + cls + ' aria-label="' + (i + 1) + ": " + k + '">' + icon(k) + "<span>" + (i + 1) + "</span></li>";
+    }).join("");
+    $empty.hidden = seq.length > 0;
+    $len.textContent = seq.length;
+    $undo.disabled = seq.length === 0;
+    $clear.disabled = seq.length === 0;
+    if (seq.length === 0) disarm();
+    readout.scrollTop = readout.scrollHeight;
+  }
+
+  function add(key) {
+    seq.push(key);
+    disarm();
+    save();
+    render(true);
+  }
+
+  function undo() {
+    if (!seq.length) return;
+    seq.pop();
+    save();
+    render(false);
+  }
+
+  // Two-step clear so one stray tap doesn't wipe a long sequence.
+  function disarm() {
+    clearTimeout(armTimer);
+    $clear.classList.remove("armed");
+    $clear.textContent = "Clear all";
+  }
+  function clearAll() {
+    if (!seq.length) return;
+    if (!$clear.classList.contains("armed")) {
+      $clear.classList.add("armed");
+      $clear.textContent = "Tap again to clear";
+      armTimer = setTimeout(disarm, 3000);
+      return;
+    }
+    seq = [];
+    save();
+    render(false);
+  }
+
+  $undo.addEventListener("click", undo);
+  $clear.addEventListener("click", clearAll);
+
+  var KEYMAP = { ArrowUp: "triangle", ArrowLeft: "square", ArrowRight: "circle", ArrowDown: "cross" };
+  document.addEventListener("keydown", function (e) {
+    if (e.metaKey || e.ctrlKey || e.altKey) return;
+    if (KEYMAP[e.key]) {
+      e.preventDefault();
+      var btn = document.getElementById("btn-" + KEYMAP[e.key]);
+      btn.classList.add("pressed");
+      setTimeout(function () { btn.classList.remove("pressed"); }, 90);
+      add(KEYMAP[e.key]);
+    } else if (e.key === "Backspace") {
+      e.preventDefault();
+      undo();
+    } else if (e.key === "Escape") {
+      clearAll();
+    }
+  });
+
+  render(false);
+})();
+</script>

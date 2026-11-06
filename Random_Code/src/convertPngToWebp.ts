@@ -3,7 +3,7 @@ import sharp from "sharp";
 import path from "path";
 
 const directoryPath =
-  "E:/Deckplanet Data/Wonders of the First/Press Kit";
+  "E:\\Deckplanet Data\\Masters";
 
 const outputPath = directoryPath + "/output";
 
@@ -14,7 +14,7 @@ function main() {
     if (path.extname(file).toLowerCase() === ".png" || path.extname(file).toLowerCase() === '.jpg') {
       const inputPath = path.join(directoryPath, file);
       // const outputPat = path.join(outputPath, file); // to .png
-      const outputPat = path.join(outputPath, file.split('.')[0] + '.webp'); //to .webp
+      const outputPat = path.join(outputPath, file.split('.')[0].replaceAll(' ', '') + '.webp'); //to .webp
       try {
         await sharp(inputPath)
           // .resize({ width: 640, height: 894 }) // Adjust width as needed

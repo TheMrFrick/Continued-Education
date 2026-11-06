@@ -1,0 +1,12 @@
+{
+  "name": "palword-forward-breed-tree",
+  "version": "1.0.0",
+  "description": "Given a starting Pal and a target Pal, find the shortest breeding chain to reach the target (Palworld, pre-1.0 dataset).",
+  "type": "module",
+  "main": "src/cli.mjs",
+  "scripts": {
+    "fetch": "node src/fetchPals.mjs",
+    "solve": "node src/cli.mjs"
+  },
+  "license": "ISC"
+}

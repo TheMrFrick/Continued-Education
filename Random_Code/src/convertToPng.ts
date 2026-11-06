@@ -3,7 +3,7 @@ import sharp from "sharp";
 import path from "path";
 
 const directoryPath =
-  "E:/Deckplanet Data/Alpha Clash/Playtest Cards/Minion Update";
+  "C:/Users/MrFri/Downloads/wotf_images";
 
 const outputPath = directoryPath + "/output";
 

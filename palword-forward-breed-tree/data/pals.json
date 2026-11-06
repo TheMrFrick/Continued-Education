@@ -1,0 +1,961 @@
+[
+  {
+    "tribeName": "KingBahamut",
+    "localizedName": "Blazamut",
+    "element1": "Fire",
+    "element2": null,
+    "breedingRank": 10
+  },
+  {
+    "tribeName": "Suzaku_Water",
+    "localizedName": "Suzaku Aqua",
+    "element1": "Water",
+    "element2": null,
+    "breedingRank": 30
+  },
+  {
+    "tribeName": "Suzaku",
+    "localizedName": "Suzaku",
+    "element1": "Fire",
+    "element2": null,
+    "breedingRank": 50
+  },
+  {
+    "tribeName": "BlackGriffon",
+    "localizedName": "Shadowbeak",
+    "element1": "Dark",
+    "element2": null,
+    "breedingRank": 60
+  },
+  {
+    "tribeName": "BlackCentaur",
+    "localizedName": "Necromus",
+    "element1": "Dark",
+    "element2": null,
+    "breedingRank": 70
+  },
+  {
+    "tribeName": "SaintCentaur",
+    "localizedName": "Paladius",
+    "element1": "Normal",
+    "element2": null,
+    "breedingRank": 80
+  },
+  {
+    "tribeName": "JetDragon",
+    "localizedName": "Jetragon",
+    "element1": "Dragon",
+    "element2": null,
+    "breedingRank": 90
+  },
+  {
+    "tribeName": "IceHorse_Dark",
+    "localizedName": "Frostallion Noct",
+    "element1": "Dark",
+    "element2": null,
+    "breedingRank": 100
+  },
+  {
+    "tribeName": "IceHorse",
+    "localizedName": "Frostallion",
+    "element1": "Ice",
+    "element2": null,
+    "breedingRank": 120
+  },
+  {
+    "tribeName": "WhiteTiger",
+    "localizedName": "Cryolinx",
+    "element1": "Ice",
+    "element2": null,
+    "breedingRank": 130
+  },
+  {
+    "tribeName": "ThunderDragonMan",
+    "localizedName": "Orserk",
+    "element1": "Dragon",
+    "element2": "Electricity",
+    "breedingRank": 140
+  },
+  {
+    "tribeName": "BlackMetalDragon",
+    "localizedName": "Astegon",
+    "element1": "Dragon",
+    "element2": "Dark",
+    "breedingRank": 150
+  },
+  {
+    "tribeName": "HadesBird",
+    "localizedName": "Helzephyr",
+    "element1": "Dark",
+    "element2": null,
+    "breedingRank": 190
+  },
+  {
+    "tribeName": "ElecPanda",
+    "localizedName": "Grizzbolt",
+    "element1": "Electricity",
+    "element2": null,
+    "breedingRank": 200
+  },
+  {
+    "tribeName": "LilyQueen_Dark",
+    "localizedName": "Lyleen Noct",
+    "element1": "Dark",
+    "element2": null,
+    "breedingRank": 210
+  },
+  {
+    "tribeName": "ThunderBird",
+    "localizedName": "Beakon",
+    "element1": "Electricity",
+    "element2": null,
+    "breedingRank": 220
+  },
+  {
+    "tribeName": "VolcanicMonster_Ice",
+    "localizedName": "Reptyro Cryst",
+    "element1": "Ice",
+    "element2": "Earth",
+    "breedingRank": 230
+  },
+  {
+    "tribeName": "FireKirin_Dark",
+    "localizedName": "Pyrin Noct",
+    "element1": "Fire",
+    "element2": "Dark",
+    "breedingRank": 240
+  },
+  {
+    "tribeName": "LilyQueen",
+    "localizedName": "Lyleen",
+    "element1": "Leaf",
+    "element2": null,
+    "breedingRank": 250
+  },
+  {
+    "tribeName": "DarkScorpion",
+    "localizedName": "Menasting",
+    "element1": "Dark",
+    "element2": "Earth",
+    "breedingRank": 260
+  },
+  {
+    "tribeName": "LazyDragon_Electric",
+    "localizedName": "Relaxaurus Lux",
+    "element1": "Dragon",
+    "element2": "Electricity",
+    "breedingRank": 270
+  },
+  {
+    "tribeName": "LazyDragon",
+    "localizedName": "Relaxaurus",
+    "element1": "Dragon",
+    "element2": "Water",
+    "breedingRank": 280
+  },
+  {
+    "tribeName": "GrassMammoth_Ice",
+    "localizedName": "Mammorest Cryst",
+    "element1": "Ice",
+    "element2": null,
+    "breedingRank": 290
+  },
+  {
+    "tribeName": "GrassMammoth",
+    "localizedName": "Mammorest",
+    "element1": "Leaf",
+    "element2": null,
+    "breedingRank": 300
+  },
+  {
+    "tribeName": "Umihebi",
+    "localizedName": "Jormuntide",
+    "element1": "Dragon",
+    "element2": "Water",
+    "breedingRank": 310
+  },
+  {
+    "tribeName": "Umihebi_Fire",
+    "localizedName": "Jormuntide Ignis",
+    "element1": "Dragon",
+    "element2": "Fire",
+    "breedingRank": 315
+  },
+  {
+    "tribeName": "VolcanicMonster",
+    "localizedName": "Reptyro",
+    "element1": "Fire",
+    "element2": "Earth",
+    "breedingRank": 320
+  },
+  {
+    "tribeName": "QueenBee",
+    "localizedName": "Elizabee",
+    "element1": "Leaf",
+    "element2": null,
+    "breedingRank": 330
+  },
+  {
+    "tribeName": "HerculesBeetle",
+    "localizedName": "Warsect ",
+    "element1": "Earth",
+    "element2": "Leaf",
+    "breedingRank": 340
+  },
+  {
+    "tribeName": "SkyDragon",
+    "localizedName": "Quivern",
+    "element1": "Dragon",
+    "element2": null,
+    "breedingRank": 350
+  },
+  {
+    "tribeName": "FireKirin",
+    "localizedName": "Pyrin",
+    "element1": "Fire",
+    "element2": null,
+    "breedingRank": 360
+  },
+  {
+    "tribeName": "Horus",
+    "localizedName": "Faleris",
+    "element1": "Fire",
+    "element2": null,
+    "breedingRank": 370
+  },
+  {
+    "tribeName": "RedArmorBird",
+    "localizedName": "Ragnahawk",
+    "element1": "Fire",
+    "element2": null,
+    "breedingRank": 380
+  },
+  {
+    "tribeName": "GrassPanda_Electric",
+    "localizedName": "Mossanda Lux",
+    "element1": "Electricity",
+    "element2": null,
+    "breedingRank": 390
+  },
+  {
+    "tribeName": "MopKing",
+    "localizedName": "Sweepa",
+    "element1": "Ice",
+    "element2": null,
+    "breedingRank": 410
+  },
+  {
+    "tribeName": "HawkBird",
+    "localizedName": "Nitewing",
+    "element1": "Normal",
+    "element2": null,
+    "breedingRank": 420
+  },
+  {
+    "tribeName": "GrassPanda",
+    "localizedName": "Mossanda",
+    "element1": "Leaf",
+    "element2": null,
+    "breedingRank": 430
+  },
+  {
+    "tribeName": "KingAlpaca_Ice",
+    "localizedName": "Kingpaca Cryst",
+    "element1": "Ice",
+    "element2": null,
+    "breedingRank": 440
+  },
+  {
+    "tribeName": "WhiteMoth",
+    "localizedName": "Sibelyx",
+    "element1": "Ice",
+    "element2": null,
+    "breedingRank": 450
+  },
+  {
+    "tribeName": "Yeti",
+    "localizedName": "Wumpo",
+    "element1": "Ice",
+    "element2": null,
+    "breedingRank": 460
+  },
+  {
+    "tribeName": "KingAlpaca",
+    "localizedName": "Kingpaca",
+    "element1": "Normal",
+    "element2": null,
+    "breedingRank": 470
+  },
+  {
+    "tribeName": "Yeti_Grass",
+    "localizedName": "Wumpo Botan",
+    "element1": "Leaf",
+    "element2": null,
+    "breedingRank": 480
+  },
+  {
+    "tribeName": "CuteButterfly",
+    "localizedName": "Cinnamoth",
+    "element1": "Leaf",
+    "element2": null,
+    "breedingRank": 490
+  },
+  {
+    "tribeName": "BlueDragon",
+    "localizedName": "Azurobe",
+    "element1": "Water",
+    "element2": "Dragon",
+    "breedingRank": 500
+  },
+  {
+    "tribeName": "NaughtyCat",
+    "localizedName": "Grintale",
+    "element1": "Normal",
+    "element2": null,
+    "breedingRank": 510
+  },
+  {
+    "tribeName": "CaptainPenguin",
+    "localizedName": "Penking",
+    "element1": "Water",
+    "element2": "Ice",
+    "breedingRank": 520
+  },
+  {
+    "tribeName": "FairyDragon_Water",
+    "localizedName": "Elphidran Aqua",
+    "element1": "Dragon",
+    "element2": "Water",
+    "breedingRank": 530
+  },
+  {
+    "tribeName": "FairyDragon",
+    "localizedName": "Elphidran",
+    "element1": "Dragon",
+    "element2": null,
+    "breedingRank": 540
+  },
+  {
+    "tribeName": "Serpent_Ground",
+    "localizedName": "Surfent Terra",
+    "element1": "Earth",
+    "element2": null,
+    "breedingRank": 550
+  },
+  {
+    "tribeName": "Serpent",
+    "localizedName": "Surfent",
+    "element1": "Water",
+    "element2": null,
+    "breedingRank": 560
+  },
+  {
+    "tribeName": "Anubis",
+    "localizedName": "Anubis",
+    "element1": "Earth",
+    "element2": null,
+    "breedingRank": 570
+  },
+  {
+    "tribeName": "Baphomet_Dark",
+    "localizedName": "Incineram Noct",
+    "element1": "Dark",
+    "element2": null,
+    "breedingRank": 580
+  },
+  {
+    "tribeName": "Baphomet",
+    "localizedName": "Incineram",
+    "element1": "Fire",
+    "element2": "Dark",
+    "breedingRank": 590
+  },
+  {
+    "tribeName": "BirdDragon_Ice",
+    "localizedName": "Vanwyrm Cryst",
+    "element1": "Ice",
+    "element2": "Dark",
+    "breedingRank": 620
+  },
+  {
+    "tribeName": "Ronin",
+    "localizedName": "Bushi",
+    "element1": "Fire",
+    "element2": null,
+    "breedingRank": 640
+  },
+  {
+    "tribeName": "BirdDragon",
+    "localizedName": "Vanwyrm",
+    "element1": "Fire",
+    "element2": "Dark",
+    "breedingRank": 660
+  },
+  {
+    "tribeName": "Manticore_Dark",
+    "localizedName": "Blazehowl Noct",
+    "element1": "Fire",
+    "element2": "Dark",
+    "breedingRank": 670
+  },
+  {
+    "tribeName": "Kirin",
+    "localizedName": "Univolt",
+    "element1": "Electricity",
+    "element2": null,
+    "breedingRank": 680
+  },
+  {
+    "tribeName": "CatMage",
+    "localizedName": "Katress",
+    "element1": "Dark",
+    "element2": null,
+    "breedingRank": 700
+  },
+  {
+    "tribeName": "Manticore",
+    "localizedName": "Blazehowl",
+    "element1": "Fire",
+    "element2": null,
+    "breedingRank": 710
+  },
+  {
+    "tribeName": "ThunderDog",
+    "localizedName": "Rayhound",
+    "element1": "Electricity",
+    "element2": null,
+    "breedingRank": 740
+  },
+  {
+    "tribeName": "CatBat",
+    "localizedName": "Tombat",
+    "element1": "Dark",
+    "element2": null,
+    "breedingRank": 750
+  },
+  {
+    "tribeName": "IceFox",
+    "localizedName": "Foxcicle",
+    "element1": "Ice",
+    "element2": null,
+    "breedingRank": 760
+  },
+  {
+    "tribeName": "FlowerDoll",
+    "localizedName": "Petallia",
+    "element1": "Leaf",
+    "element2": null,
+    "breedingRank": 780
+  },
+  {
+    "tribeName": "FlameBuffalo",
+    "localizedName": "Arsox",
+    "element1": "Fire",
+    "element2": null,
+    "breedingRank": 790
+  },
+  {
+    "tribeName": "WeaselDragon",
+    "localizedName": "Chillet",
+    "element1": "Ice",
+    "element2": "Dragon",
+    "breedingRank": 800
+  },
+  {
+    "tribeName": "FlowerDinosaur_Electric",
+    "localizedName": "Dinossom Lux",
+    "element1": "Electricity",
+    "element2": "Dragon",
+    "breedingRank": 810
+  },
+  {
+    "tribeName": "FlowerDinosaur",
+    "localizedName": "Dinossom",
+    "element1": "Leaf",
+    "element2": "Dragon",
+    "breedingRank": 820
+  },
+  {
+    "tribeName": "AmaterasuWolf",
+    "localizedName": "Kitsun",
+    "element1": "Fire",
+    "element2": null,
+    "breedingRank": 830
+  },
+  {
+    "tribeName": "SakuraSaurus_Water",
+    "localizedName": "Broncherry Aqua",
+    "element1": "Leaf",
+    "element2": "Water",
+    "breedingRank": 840
+  },
+  {
+    "tribeName": "DrillGame",
+    "localizedName": "Digtoise",
+    "element1": "Earth",
+    "element2": null,
+    "breedingRank": 850
+  },
+  {
+    "tribeName": "SakuraSaurus",
+    "localizedName": "Broncherry",
+    "element1": "Leaf",
+    "element2": null,
+    "breedingRank": 860
+  },
+  {
+    "tribeName": "FlyingManta",
+    "localizedName": "Celaray",
+    "element1": "Water",
+    "element2": null,
+    "breedingRank": 870
+  },
+  {
+    "tribeName": "IceDeer",
+    "localizedName": "Reindrix",
+    "element1": "Ice",
+    "element2": null,
+    "breedingRank": 880
+  },
+  {
+    "tribeName": "Alpaca",
+    "localizedName": "Melpaca",
+    "element1": "Normal",
+    "element2": null,
+    "breedingRank": 890
+  },
+  {
+    "tribeName": "LazyCatfish",
+    "localizedName": "Dumud",
+    "element1": "Earth",
+    "element2": null,
+    "breedingRank": 895
+  },
+  {
+    "tribeName": "Deer_Ground",
+    "localizedName": "Eikthyrdeer Terra",
+    "element1": "Earth",
+    "element2": null,
+    "breedingRank": 900
+  },
+  {
+    "tribeName": "CowPal",
+    "localizedName": "Mozzarina",
+    "element1": "Normal",
+    "element2": null,
+    "breedingRank": 910
+  },
+  {
+    "tribeName": "Deer",
+    "localizedName": "Eikthyrdeer",
+    "element1": "Normal",
+    "element2": null,
+    "breedingRank": 920
+  },
+  {
+    "tribeName": "BerryGoat",
+    "localizedName": "Caprity",
+    "element1": "Leaf",
+    "element2": null,
+    "breedingRank": 930
+  },
+  {
+    "tribeName": "PinkLizard",
+    "localizedName": "Lovander",
+    "element1": "Normal",
+    "element2": null,
+    "breedingRank": 940
+  },
+  {
+    "tribeName": "Werewolf",
+    "localizedName": "Loupmoon",
+    "element1": "Dark",
+    "element2": null,
+    "breedingRank": 950
+  },
+  {
+    "tribeName": "FengyunDeeper",
+    "localizedName": "Fenglope",
+    "element1": "Normal",
+    "element2": null,
+    "breedingRank": 980
+  },
+  {
+    "tribeName": "GrassRabbitMan",
+    "localizedName": "Verdash",
+    "element1": "Leaf",
+    "element2": null,
+    "breedingRank": 990
+  },
+  {
+    "tribeName": "RobinHood_Ground",
+    "localizedName": "Robinquill Terra",
+    "element1": "Leaf",
+    "element2": "Earth",
+    "breedingRank": 1000
+  },
+  {
+    "tribeName": "CatVampire",
+    "localizedName": "Felbat",
+    "element1": "Dark",
+    "element2": null,
+    "breedingRank": 1010
+  },
+  {
+    "tribeName": "RobinHood",
+    "localizedName": "Robinquill",
+    "element1": "Leaf",
+    "element2": null,
+    "breedingRank": 1020
+  },
+  {
+    "tribeName": "Eagle",
+    "localizedName": "Galeclaw",
+    "element1": "Normal",
+    "element2": null,
+    "breedingRank": 1030
+  },
+  {
+    "tribeName": "Gorilla",
+    "localizedName": "Gorirat",
+    "element1": "Normal",
+    "element2": null,
+    "breedingRank": 1040
+  },
+  {
+    "tribeName": "VioletFairy",
+    "localizedName": "Vaelet",
+    "element1": "Leaf",
+    "element2": null,
+    "breedingRank": 1050
+  },
+  {
+    "tribeName": "Garm",
+    "localizedName": "Direhowl",
+    "element1": "Normal",
+    "element2": null,
+    "breedingRank": 1060
+  },
+  {
+    "tribeName": "SoldierBee",
+    "localizedName": "Beegarde",
+    "element1": "Leaf",
+    "element2": null,
+    "breedingRank": 1070
+  },
+  {
+    "tribeName": "DarkCrow",
+    "localizedName": "Cawgnito",
+    "element1": "Dark",
+    "element2": null,
+    "breedingRank": 1080
+  },
+  {
+    "tribeName": "SharkKid",
+    "localizedName": "Gobfin",
+    "element1": "Water",
+    "element2": null,
+    "breedingRank": 1090
+  },
+  {
+    "tribeName": "SharkKid_Fire",
+    "localizedName": "Gobfin Ignis",
+    "element1": "Fire",
+    "element2": null,
+    "breedingRank": 1100
+  },
+  {
+    "tribeName": "Mutant",
+    "localizedName": "Lunaris",
+    "element1": "Normal",
+    "element2": null,
+    "breedingRank": 1110
+  },
+  {
+    "tribeName": "LizardMan",
+    "localizedName": "Leezpunk",
+    "element1": "Dark",
+    "element2": null,
+    "breedingRank": 1120
+  },
+  {
+    "tribeName": "Boar",
+    "localizedName": "Rushoar",
+    "element1": "Earth",
+    "element2": null,
+    "breedingRank": 1130
+  },
+  {
+    "tribeName": "LizardMan_Fire",
+    "localizedName": "Leezpunk Ignis",
+    "element1": "Fire",
+    "element2": null,
+    "breedingRank": 1140
+  },
+  {
+    "tribeName": "GhostBeast",
+    "localizedName": "Maraith",
+    "element1": "Dark",
+    "element2": null,
+    "breedingRank": 1150
+  },
+  {
+    "tribeName": "FlameBambi",
+    "localizedName": "Rooby",
+    "element1": "Fire",
+    "element2": null,
+    "breedingRank": 1155
+  },
+  {
+    "tribeName": "FoxMage",
+    "localizedName": "Wixen",
+    "element1": "Fire",
+    "element2": null,
+    "breedingRank": 1160
+  },
+  {
+    "tribeName": "NightFox",
+    "localizedName": "Nox",
+    "element1": "Dark",
+    "element2": null,
+    "breedingRank": 1180
+  },
+  {
+    "tribeName": "SweetsSheep",
+    "localizedName": "Woolipop",
+    "element1": "Normal",
+    "element2": null,
+    "breedingRank": 1190
+  },
+  {
+    "tribeName": "RaijinDaughter",
+    "localizedName": "Dazzi",
+    "element1": "Electricity",
+    "element2": null,
+    "breedingRank": 1210
+  },
+  {
+    "tribeName": "CuteMole",
+    "localizedName": "Fuddler",
+    "element1": "Earth",
+    "element2": null,
+    "breedingRank": 1220
+  },
+  {
+    "tribeName": "DreamDemon",
+    "localizedName": "Daedream",
+    "element1": "Dark",
+    "element2": null,
+    "breedingRank": 1230
+  },
+  {
+    "tribeName": "PlantSlime",
+    "localizedName": "Gumoss",
+    "element1": "Leaf",
+    "element2": "Earth",
+    "breedingRank": 1240
+  },
+  {
+    "tribeName": "Monkey",
+    "localizedName": "Tanzee",
+    "element1": "Leaf",
+    "element2": null,
+    "breedingRank": 1250
+  },
+  {
+    "tribeName": "Kelpie",
+    "localizedName": "Kelpsea",
+    "element1": "Water",
+    "element2": null,
+    "breedingRank": 1260
+  },
+  {
+    "tribeName": "Kelpie_Fire",
+    "localizedName": "Kelpsea Ignis",
+    "element1": "Fire",
+    "element2": null,
+    "breedingRank": 1270
+  },
+  {
+    "tribeName": "FlowerRabbit",
+    "localizedName": "Flopie",
+    "element1": "Leaf",
+    "element2": null,
+    "breedingRank": 1280
+  },
+  {
+    "tribeName": "NegativeOctopus",
+    "localizedName": "Killamari",
+    "element1": "Dark",
+    "element2": null,
+    "breedingRank": 1290
+  },
+  {
+    "tribeName": "MopBaby",
+    "localizedName": "Swee",
+    "element1": "Ice",
+    "element2": null,
+    "breedingRank": 1300
+  },
+  {
+    "tribeName": "PinkRabbit",
+    "localizedName": "Ribbuny",
+    "element1": "Normal",
+    "element2": null,
+    "breedingRank": 1310
+  },
+  {
+    "tribeName": "LittleBriarRose",
+    "localizedName": "Bristla",
+    "element1": "Leaf",
+    "element2": null,
+    "breedingRank": 1320
+  },
+  {
+    "tribeName": "Blueplatypus",
+    "localizedName": "Fuack",
+    "element1": "Water",
+    "element2": null,
+    "breedingRank": 1330
+  },
+  {
+    "tribeName": "ColorfulBird",
+    "localizedName": "Tocotoco",
+    "element1": "Normal",
+    "element2": null,
+    "breedingRank": 1340
+  },
+  {
+    "tribeName": "Penguin",
+    "localizedName": "Pengullet",
+    "element1": "Water",
+    "element2": "Ice",
+    "breedingRank": 1350
+  },
+  {
+    "tribeName": "Hedgehog_Ice",
+    "localizedName": "Jolthog Cryst",
+    "element1": "Ice",
+    "element2": null,
+    "breedingRank": 1360
+  },
+  {
+    "tribeName": "Hedgehog",
+    "localizedName": "Jolthog",
+    "element1": "Electricity",
+    "element2": null,
+    "breedingRank": 1370
+  },
+  {
+    "tribeName": "NegativeKoala",
+    "localizedName": "Depresso",
+    "element1": "Dark",
+    "element2": null,
+    "breedingRank": 1380
+  },
+  {
+    "tribeName": "WizardOwl",
+    "localizedName": "Hoocrates",
+    "element1": "Dark",
+    "element2": null,
+    "breedingRank": 1390
+  },
+  {
+    "tribeName": "Kitsunebi",
+    "localizedName": "Foxparks",
+    "element1": "Fire",
+    "element2": null,
+    "breedingRank": 1400
+  },
+  {
+    "tribeName": "LavaGirl",
+    "localizedName": "Flambelle",
+    "element1": "Fire",
+    "element2": null,
+    "breedingRank": 1405
+  },
+  {
+    "tribeName": "ElecCat",
+    "localizedName": "Sparkit",
+    "element1": "Electricity",
+    "element2": null,
+    "breedingRank": 1410
+  },
+  {
+    "tribeName": "WindChimes",
+    "localizedName": "Hangyu",
+    "element1": "Earth",
+    "element2": null,
+    "breedingRank": 1420
+  },
+  {
+    "tribeName": "WindChimes_Ice",
+    "localizedName": "Hangyu Cryst",
+    "element1": "Ice",
+    "element2": null,
+    "breedingRank": 1422
+  },
+  {
+    "tribeName": "Carbunclo",
+    "localizedName": "Lifmunk",
+    "element1": "Leaf",
+    "element2": null,
+    "breedingRank": 1430
+  },
+  {
+    "tribeName": "Bastet_Ice",
+    "localizedName": "Mau Cryst",
+    "element1": "Ice",
+    "element2": null,
+    "breedingRank": 1440
+  },
+  {
+    "tribeName": "CuteFox",
+    "localizedName": "Vixy",
+    "element1": "Normal",
+    "element2": null,
+    "breedingRank": 1450
+  },
+  {
+    "tribeName": "WoolFox",
+    "localizedName": "Cremis",
+    "element1": "Normal",
+    "element2": null,
+    "breedingRank": 1455
+  },
+  {
+    "tribeName": "PinkCat",
+    "localizedName": "Cattiva",
+    "element1": "Normal",
+    "element2": null,
+    "breedingRank": 1460
+  },
+  {
+    "tribeName": "SheepBall",
+    "localizedName": "Lamball",
+    "element1": "Normal",
+    "element2": null,
+    "breedingRank": 1470
+  },
+  {
+    "tribeName": "Bastet",
+    "localizedName": "Mau",
+    "element1": "Dark",
+    "element2": null,
+    "breedingRank": 1480
+  },
+  {
+    "tribeName": "Ganesha",
+    "localizedName": "Teafant",
+    "element1": "Water",
+    "element2": null,
+    "breedingRank": 1490
+  },
+  {
+    "tribeName": "ChickenPal",
+    "localizedName": "Chikipi",
+    "element1": "Normal",
+    "element2": null,
+    "breedingRank": 1500
+  }
+]

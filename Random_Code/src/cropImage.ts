@@ -3,7 +3,7 @@ import sharp from "sharp";
 import path from "path";
 
 const directoryPath =
-  "E:/Deckplanet Data/Alpha Clash TCG Digital Assets/Alpha Clash TCG Digital Assets/DeckPlanet/Need Cropping";
+  "E:\\Deckplanet Data\\Alpha Clash\\Nexus of Power AC8\\\\Nexus of Power (Set 8)";
 
 
 // const imageName = 'AC1-001.png';

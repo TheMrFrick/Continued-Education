@@ -1,7 +1,7 @@
 import { readdirSync, renameSync } from "fs";
 
 const directoryPath =
-  "E:/Deckplanet Data/Alpha Clash TCG Digital Assets/Alpha Clash TCG Digital Assets/Set 5 Cards";
+  "E:\\Deckplanet Data\\Alpha Clash\\Vault Trials and Spoils of the Vault TCGPlayer\\Vault Trials PNG Cards\\Pre Built Decks";
 
 const possibleCardNums: Set<string> = new Set<string>();
 
@@ -9,12 +9,13 @@ async function main() {
   const dirItems = readdirSync(directoryPath);
   // console.log(dirItems);
   dirItems.forEach((v) => {
-    // const parts = v.split(" ");
+    const parts = v.split(" ");
     // const filt = parts.filter((vp) => vp.includes("-"));
     // const num = filt[0].split('.')[0];
     // we may also have the num.png
-    const parts = v.split("-");
-    const num = parts[0] + '-' + parts[1];
+    // const parts = v.split("-");
+    // const num = parts[0] + '-' + parts[1];
+    const num = parts[0];
     if (possibleCardNums.has(num)) {
       let i = 1;
       let mutated_name = num + "_AA";
